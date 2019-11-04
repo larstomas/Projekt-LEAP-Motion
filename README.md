@@ -17,4 +17,4 @@
 - Oscar Thureborn, toscar@student.chalmers.se
 - Tomas Bäckman, backmant@student.chalmers.se
 
-berkoj@student.chalmers.se;juliuan.student.chalmers.se;pemax@student.chalmers.se;mellard@student.chalmers.se;toscar@student.chalmers.se;backmant@student.chalmers.se
+berkoj@student.chalmers.se;juliuan@student.chalmers.se;pemax@student.chalmers.se;mellard@student.chalmers.se;toscar@student.chalmers.se;backmant@student.chalmers.se
