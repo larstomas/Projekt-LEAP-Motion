@@ -1,0 +1,2 @@
+Samtliga gruppmedlemmar ska för eget bruk dokumentera sitt arbete med en dagbok och sammanfatta dem i en personlig veckorapport som projektledaren ska använda för projektets veckorapport. Skriv hur många timmar du har jobbat under vecka. Alla filer ska sparas under Dokument -->Projektgrupp -->Mapp (skapa mapp med namn på deltagare ex. "Anna")--> namn på fil ska bli aktuellt datum med namn ex. 2019-11-20_dags_Anna.txt och veckorapport_4_Anna.txt.
+
