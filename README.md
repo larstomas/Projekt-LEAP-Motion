@@ -8,7 +8,7 @@
 1. Alla: Välj veckans projektledare och uppdatera ProjektledareInfo.xlsx
 2. Alla: Skriv var man befinner i GruppInfo.xlsx
 3. Alla: Sammanfattning av arbetsdagbok på [individnivå](https://github.com/larstomas/Projekt-LEAP-Motion/tree/master/Projektdokumentation/Individuella%20rapporter)
-4. Projektledaren: Sammanfatta projektarbetet under den gångna veckan med en [veckorapport](https://github.com/larstomas/Projekt-LEAP-Motion/tree/master/Projektdokumentation/Individuella%20rapporter).
+4. Projektledaren: Sammanfatta projektarbetet under den gångna veckan med en [veckorapport](https://github.com/larstomas/Projekt-LEAP-Motion/tree/master/Projektdokumentation/Grupprapporter/Veckorapport).
 
 ## Gruppmedlemmar
 - Jonatan Berko, berkoj@student.chalmers.se
