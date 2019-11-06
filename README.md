@@ -2,7 +2,7 @@
 
 ## Dokument på Google Drive
 - [GruppInfo.xlsx](https://docs.google.com/spreadsheets/d/1Tqx8ix3DK9aa-yicXg5oM55bOjD0VTfDCEZt_TeJPVA/edit?usp=sharing)
-- [ProjektledareInfo.xlsx]()
+- [ProjektledareInfo.xlsx](https://docs.google.com/spreadsheets/d/1aRaTEjPYkTkzB0UXmYtrtlhWuvX2_WPkVutJGcKPkMM/edit?usp=sharing)
 
 ## Varje dag
 1. Alla: [Arbetsdagbok](https://github.com/larstomas/Projekt-LEAP-Motion/tree/master/Projektdokumentation/Individuella%20rapporter)
