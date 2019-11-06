@@ -1,8 +1,9 @@
 # Projekt-LEAP-Motion
 
-## Dokument på Google Drive
+## Resurser utanför GitHub
 - [GruppInfo.xlsx](https://docs.google.com/spreadsheets/d/1Tqx8ix3DK9aa-yicXg5oM55bOjD0VTfDCEZt_TeJPVA/edit?usp=sharing)
 - [ProjektledareInfo.xlsx](https://docs.google.com/spreadsheets/d/1aRaTEjPYkTkzB0UXmYtrtlhWuvX2_WPkVutJGcKPkMM/edit?usp=sharing)
+- [Trello Board](https://trello.com/b/u5A687zw/dat067-leap)
 
 ## Varje dag
 1. Alla: [Arbetsdagbok](https://github.com/larstomas/Projekt-LEAP-Motion/tree/master/Projektdokumentation/Individuella%20rapporter)
