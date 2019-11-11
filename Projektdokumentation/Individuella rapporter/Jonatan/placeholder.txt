@@ -1,2 +1,0 @@
-Den här filen är bara till för att mappen ska skapas på GitHub.
-Kan tas bort när det finns andra filer i mappen.
