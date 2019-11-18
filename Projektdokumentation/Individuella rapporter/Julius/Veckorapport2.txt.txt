@@ -4,4 +4,7 @@ På onsdagen hade vi ett långt möte innan videomötet med Smart Textiles, där
 Vi skrotade därför det vi kommit fram till och körde på deras version. 
 Jag tycker egentligen att deras idé är lite förlegad och kreativitetslös men det känns å andra sidan skönt att vi fått en konkret uppgift som vi kan börja med. 
 
-På fredagen sågs vi för att bena ut uppgiften och se vilka utmaningar den medför och på vilka av dom vi ska fokusera på. Alla gruppmedlemmar fick ange vilken del utav utmaningar de helst vill jobba med även om vi var överens om att det först under projektets gång kommer kunna gå att bestämma hur mycket mankraft som kommer behövas att lägga på vilka delar. Vi satte även de första korten att göra på vår scrumboard som alla medlemmar ska göra för att få en övergripande bild. Även om det har varit lite blandade känslor kring uppgiften så känns nu kul att få börja koda lite och jag ser fram emot att få lära mig att programmera i swift mot iOS
+På fredagen sågs vi för att bena ut uppgiften och se vilka utmaningar den medför och på vilka av dom vi ska fokusera på. 
+Alla gruppmedlemmar fick ange vilken del utav utmaningar de helst vill jobba med även om vi var överens om att det först under projektets gång kommer kunna gå att bestämma hur mycket mankraft som kommer behövas att lägga på vilka delar. 
+Vi satte även de första korten att göra på vår scrumboard som alla medlemmar ska göra för att få en övergripande bild. 
+Även om det har varit lite blandade känslor kring uppgiften så känns nu kul att få börja koda lite och jag ser fram emot att få lära mig att programmera i swift mot iOS
