@@ -1,0 +1,6 @@
+Fredag 15/11
+
+
+Idag hade vi möte med gruppen och planerade arbetet för kommande vecka. Vi bestämde utvecklingsmiljö, och logistik kring projektet. Vi bestämde att alla ska sätta upp Xcode och ha åstadkommit en hello world till onsdag nästa vecka. Förhoppningsvis hinner vi mer.
+
+Arbetstid: 2h

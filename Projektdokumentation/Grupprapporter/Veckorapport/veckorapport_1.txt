@@ -1,0 +1,48 @@
+Veckorapport för vecka: # 1
+
+Projektledare: Max Petersson
+
+
+Eftersom detta var första veckan på projektet så blev de allra första dagarna aningens speciella.
+Det var först på onsdagen som hela gruppen sågs och "allt" var bestämt. Måndagen gick ut på att lyssna på Sakib angående själva kursen, samt att börja se över projekt-förslagen.
+
+När tisdagen kom hade det mesta spikats, inklusive onsdagens möte. Gruppmedlemmarna började förbereda sig på projektet på lite olika sätt;
+Delvis sattes ett Git-repo upp med diverse kurs-specifikt material. En Slack-grupp (kommunikationsprogram) startades för de första diskussionerna.
+Vissa började läsa på de olika teknikerna som stod specificerade i projektet.
+
+Under onsdagen hölls det första officiella mötet och flertalet saker spikades och slutfördes:
+	Projektledare för samtliga, kommande, veckor.
+	Git-repo, Slack och Trello som nödvändiga verktyg.
+	Vem eller vilka som skulle presentera/opponera på de två olika tillfällen (halv- och heltid)
+	Deadlines för de många olika rapporterna som ska produceras varje vecka.
+		Alla de rapporter som var personliga (dags- och veckorapport) ska vara inne senast 08.00 på måndagen - för föregående vecka.
+		Den, sammanfattande, projektrapporten som projektledaren ska skriva ska vara inne senast 17.00 på onsdagen. Alltså har projektledaren tre hela arbetsdagar på sig att sammanställa allas rapporter i den slutliga vecko-rapporten.
+	
+
+Frågor kvar efter onsdagen:
+	Projekt-planeringen stod vi lite handfallna inför då ingen kontakt med projektgivarna ännu fanns.
+	Git och Trello: Det slutgiltiga användandet av dessa verktyg återstår också att se då vi inte vet huruvida vi kommer jobba på egen teknik eller om vi kommer bli integrerade i företagets process.
+	
+	Däremot fastställdes att både Git och Trello behövs för projektets administrativa delar, så som rapporter, deadlines och så vidare.
+
+
+Slutet på veckan präglades av väldigt(!) bristfällig information från projekt-givarna då några i gruppen försökte desperat att få tag i denna och boka ett möte.
+Efter väldigt dålig information så fick vi till slut till ett möte på fredagen. Oscar och Tomas var närvarande (väldigt kort varsel gavs av projekt-givaren därför kunde inte fler än så).
+
+
+
+
+
+Efter läsning av alla gruppmedlemmars egna rapporter så märker jag tydligt att det finns en viss frustration kring att man inte kan få komma igång att arbeta med projektet.
+Många av medlemmarna upplever att tiden rinner iväg och att ingenting särskilt blir gjort.
+
+
+
+Sammanfattning och betyg på gruppen: 
+
+Jag kommer att ge gruppen betyget: 5
+Motivering:
+Huvudsakligen utgår jag frågan frågan: "Finns det något annat vi som grupp, eller enskilda gruppmedlemmar, hade kunnat göra annorlunda (bättre)?"
+Jag anser att hela gruppen och alla enskilda medlemmar har gjort de man/de har kunnat. Gruppen har kommunicerat väl och följt de bestämmelser som gjorts.
+Dessutom så har alla medlemmar ansträngt sig för att, på de olika planen, förbereda sig för möten och frågor som kan tänkas komma. Projektmiljön har förberetts så väl vi kunnat (med tekniska verktyg o.s.v.).
+

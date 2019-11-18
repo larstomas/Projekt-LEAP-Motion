@@ -1,0 +1,24 @@
+# Veckorapport 1
+
+När vi fick klart med gruppen och valde ett projekt under tisdagen känndes det som vi var bra med. Det känndes kul att få jobba med några nya kursare.
+
+Jag knopade ihop ett github-repo utifrån instruktionerna i kurs-pm.
+
+Första mötet på onsdagen hadde vi följande agenda:
+1. Välja veckans projektledare
+    Max blev vår första projektledare
+2. Ambitionsnivå
+    Vi var överens om att vi nöjer oss med treor. Även om jag tycker att det finns mer potential i gruppen så känns det som en bra ambitionsnivå.
+3. Planera/prata om mötet med företaget
+    Bestäm ett möte så snabbt som möjligt
+4. Planeringsrapport, Läs: Planeringsrapport.pdf på Canvas
+    Vi behöver komma i kontakt med företaget innan vi kan skriva denna rapport.
+5. Hur mycket scrum ska vi använda? Trello, Daily, Veckomöte
+    Vi väntar lite med att besluta om detta.
+6. Excel-filer + github
+    Använd github med länkar till Google Drive.
+
+
+Först på fredagen fick vi träffa Cybercom. När vi fick veta att personen som skulle hålla i LEAP Motion projektet inte jobbade kvar på företaget och vi fick ett annat projektförslag känndes det tungt, även om Cybercom kändes som ett intressant företag och personerna vi pratade med gav ett väldigt positivt intryck. Förslaget från Cybercom var att jobba med en chatbot för smarta kläder. 
+
+Veckan avslutades utan att vi hade ett projekt eller företag att jobba med. Nästa vecka måste vi välja ett projekt och träffa företaget så snabbt som möjligt. För att sedan kunna skriva en planeringsrapport.

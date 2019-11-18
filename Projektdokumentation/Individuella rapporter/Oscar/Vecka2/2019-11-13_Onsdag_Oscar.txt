@@ -1,0 +1,24 @@
+total tid: 8h
+
+Veckomöte 09:00 - 10:00
+-Mötte Sakib och diskuterade hur vi ligger till i projektet. Vi måste få kontakt med Borås för att kunna gå vidare.
+Vi har fått råd om hur vi ska hantera situationen (pressa för tidigare möte, den 20:e som planerat är för långt bort för första kontakt)
+-Vi delade upp planeringsrapporten så långt det går nu.
+-Vi bestämde för att skriva rapporter i google docs.
+
+Föreläsning 10:00 - 12:00
+- Obligatorisk föreläsning om rapportskrivning
+
+Veckomöte forts. 12:00 - 16:00
+-Vi planerade scope och började fundera på hur vi ska lösa projektet.
+-Mycket jobb lades ner på att komma på idéer kring vad vi tror att BSP vill ha
+-Det var väldigt svårt att veta om det vi ville göra var något som BSP var intresserade av eftersom vi inte har haft ett möte med dem än
+men i väntan på att vi ska få kontakt med dem så ville vi fundera ut bra förslag så att vi snabbt kan komma igång om de gillar vårt förslag
+
+Samtal med Borås Sience Park 16:00 - 17:00
+-Pratade med Erik Valvring från Borås Sience Park
+-Diskuterade projektet, varför de ska göras, vad som ska komma ut av det
+-Den viktigaste funktionen för dem är en chatt bot som är interaktiv och "sentient"
+-Inget runtomkring är speciellt viktigt i nuläget (ex. databas, input, hantering av plagg i systemet osv)
+-Det vore bäst om den var en app i telefonen
+-Demo på webb vore också bra

@@ -1,0 +1,9 @@
+totalt 4h
+
+Möte 3h
+-Diskuterade rapport
+-Valde utväcklingsmiljö Swift i Xcode
+-Begränsade scope
+-All funktionallitet skall finnas i appen, ingen server
+-Skriver app för iphone
+
