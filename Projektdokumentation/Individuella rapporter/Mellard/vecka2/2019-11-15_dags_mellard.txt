@@ -1,0 +1,5 @@
+15-11
+
+Vi hate ett möte om hur vi ska börja med chatbot. Vi kom fram besluttet att vi ska utveckla det i xCode som en iphone app med program språk swift samt började vi diskutera halvtids rapport.
+
+2hr

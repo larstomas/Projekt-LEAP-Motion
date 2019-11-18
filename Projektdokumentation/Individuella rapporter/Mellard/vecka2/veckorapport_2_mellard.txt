@@ -1,0 +1,5 @@
+veckorapport_vecka2
+
+den här vecka var mer produktiv för projektet. Vi hade lite problem med kontakt till borås om projektets information och specifikation men i onsdagen fick vi ett samtal med en kontakt personal om vad vi skulle göra. Till slut blev det ett chatbot som kan prata med en användare om deras använding av kläder ideras gardrob. Med klarhet om det började vi bestämma hur vi ska utveckla appen och vi kom fram till att appen ska kunna fråga användare och förstå vad användare svara med
+
+just nu börjar vi lära oss om utvecklingsmiljö och programmeringsspråk med sikten att kunna ha ett preliminär hello world och förhoppningsvis ett userinterface för själv appen

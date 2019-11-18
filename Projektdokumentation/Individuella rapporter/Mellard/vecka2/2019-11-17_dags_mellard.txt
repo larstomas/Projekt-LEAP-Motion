@@ -1,0 +1,5 @@
+17-11
+
+fortsatt med plugget om Xcode och swift. Den guiden jag hittade handlade mycket om grund kunskap om programmering så jag fick använda en annan guide med focus på app utveckling
+
+3hr
