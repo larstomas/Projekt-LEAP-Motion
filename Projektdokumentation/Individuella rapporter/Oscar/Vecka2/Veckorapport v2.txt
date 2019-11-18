@@ -1,0 +1,26 @@
+Total tid: 17h
+
+Började måndagen med att vara sjuk, missade mötet med cybercom. Det var ok då detta möte mestadels var till för de gruppmedlemmar som inte var
+närvarande under första mötet.
+Efter mötet fick jag en kort sammanfattning av övriga gruppen. De lät positiva över mötet i helhet och okej med det nya projektet.
+
+På onsdag morgon hade vi ett veckomöte. Vi fick tid för första möte med Borås Sience Park den 20:e vilket är en vecka från nu. Detta var
+allderles för långt bort då vi behövde kontakt med BSP innan vi kunde gå vidare. Vi pratade med Sakib om situationen och fick rekomendation
+att kontakta cybercom för att få till ett "skypemöte". Vi fick då kontaktinfo till Erik Valvring på BSP och kunde boka möte över video-länk 
+på eftermiddagen.
+Efter mötet hade vi en föreläsning om rapportskrivning, ingen ny information där. Har hört detta 10 gånger redan i andra kurser på Chalmers.
+Det känndes inte som att det borde vara svårt för folk att skriva en bra teknologisk rapport utan en genomgång längre.
+Vi åt lunch tilsammans och återupptog mötet direkt efter. Vi började fundera ut ett scope, och hur vi skulle bygga upp appen. Vi tänkte att vi
+skulle vara så förberedda vi kunde vara inför mötet med Erik.
+Vi genomförde mötet och fick bra insikt i varför projektet är viktigt. Vi fick också väldigt tydlig info om vårat scope och hur vi ska begränsa
+det. Den viktigaste funktionen är en chatbot som verkar "sentient" vars funktionallitet ska öka det sentimentala värdet hos klädesplagg eller
+få ägaren att skänka bort/sälja plagg den inte längre använder. Det vore bäst om det var en app i telefonen.
+
+På torsdagen gjorde jag en tidsplanering för projektet och skrev ner den i vår projektplanering.
+
+Fredag eftermiddag hade vi ett möte inom gruppen. Vi valde utvecklingsmiljö och begränsade vårat scope. All funktionallitet ska ligga i vår
+app, vi ska inte prata med någon server eller använda någon form av databas. Vi kommer använda Swift i Xcode. Vi kommer att utveckla en app
+för iOS.
+
+På söndag har jag skrivit klart vår planeringsrapport, jag skrev metoddelen. Jag har gjort en projektmall för vår projektrapport och skrivit
+min veckoraport.

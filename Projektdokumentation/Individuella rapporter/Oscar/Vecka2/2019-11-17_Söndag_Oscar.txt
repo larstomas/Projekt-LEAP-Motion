@@ -1,0 +1,8 @@
+Planeringsrapport 0,5 h
+-Skrev metoddelen
+
+Veckorapport 1h
+-Skrev veckorapport
+
+Fixade rapportmall
+-Gjorde overleaf dokument redo
