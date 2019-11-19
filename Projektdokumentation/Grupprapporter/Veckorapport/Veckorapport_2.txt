@@ -1,0 +1,32 @@
+Veckorapport för vecka # 2
+
+Projektledare: Oscar Thureborn
+
+Veckan började bra på måndag då gruppen fick träffa Carl på Cybercom och disskutera projektet. Alla var överens om att vi ska köra på chatbot projektet.
+För att gå vidare i projektet skulle vi få traffa kontaktpersoner från Smart Textile Lab som är beställare av projektet. De kunde träffas först
+nästa vecka (20:e) och det skulle vara allderles för sent. Vi ligger redan efter på grund av den sega starten förra veckan OCH att projektet
+som vi initiallt skulle köra på inte gick att genomföra. Kännslan inom gruppen var något frustrerad, inte mot varandra utan snarare att vi nu
+hade ytterligare en tröskel att klättra över innan vi kunde gå vidare.
+
+Vi bestämde möte innom gruppen på onsdagen med Sakib för att få veta hur vi skulle gå vidare. Sakib bad oss ko att kontakta Cybercom efter mötet
+och be om ett videomöte i veckan, vi fick ett möte på eftermiddagen samma dag med Erik Valvring från Borås Science Park. Resterande tid under
+dagen spenderades för att skapa ett projektscope som vi kunde pitcha till Erik. Vi delade även upp skrivandet av planneringsrapporten, så att
+den kunde skrivas så fort som möjligt efter mötet med Borås Science Park.
+Av Erik fick vi en bra beskrivning av problemet, och vad de sökte i sin lösning. Vi ska bygga en chatbot och vi ska inte lägga någon focus
+på kringliggande funktionallitet. Intitiallt trodde vi att vi skulle bygga allt inom appen, databas, input av artiklar, uppdatering osv.
+Det togs med blandade kännslor inom gruppen att projektet var så begränsat i sitt scope, men alla var glada över att vi äntligen vet vad vi ska
+göra så vi kan sätta igång.
+
+På Fredagen träffades gruppen och gjorde ett nytt projektscope utifrån de uppgifter vi fått av Erik. Vi är alla överens om vår utvecklingsmiljö
+och att all funktionallitet ska finnas i själva appen (ingen server, databas, ect.). Med projektscope bestämt kunde vi avsluta vår planeringsrapport.
+Veckan avslutades i god stämmning inom gruppen inför arbetsuppgiften.
+
+
+Sammanfattning och betyg:
+
+Jag kommer att ge gruppen betyget: 5
+
+Motivering:
+Gruppen har under givna omständingheter skött arbetet och drivanded av projektet på bästa möjliga sätt. Trotts våra kommunikationsproblem initialt
+med Cybercom och sedan med Borås Science Park, har gruppen ändå lyckats leverera det som för veckan var satt som mål (planeringsrapport).
+Gruppen har hållt god kommunikation, varit väl förberedda inför möten och hållt en god stämmning.
