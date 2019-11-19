@@ -1,0 +1,11 @@
+# Veckorapport 1
+
+Vi har träffat Cybercom igen och bestämt att vi ska jobba tillsammans med dem. Samt diskuterat vad projektet ska innehålla.
+
+Nu behöver vi komma i kontakt med Smart Textiles lab på Science Park Borås, så snart som möjligt.
+
+Föreläsning på förmiddagen. Pratade med Sakib om hur vi skulle göra med kontakten med förataget.
+
+Vi hade ett långt möte med gruppen som drog ut på tiden, innan vi väntade att få prata med Smart Textile i Borås. Det var bra att få prata ihop oss innan mötet. 
+
+Planeringsmöte med gruppen. Valde att göra en iOS-app i Swift. Pratade om rapporten. 
