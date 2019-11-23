@@ -1,0 +1,5 @@
+18-11
+
+jobbade med xcode och lärde mig IDE och swift genom en guide om hur man skapar en enkelt spel i xcode. Lärde mig om hur man använder storyboard i xcode för att skapa en UI och hur man kan koppla UI enheter till en kod. 
+
+2hr

@@ -1,0 +1,8 @@
+20-11
+
+hade ett konferensmöte med borås för att få lite mer info om projektet från deras teknisk kunnig personal. 
+pratade om möjlig funktionalitet av chatbot och lite mer bakgrund om projektet med teknisk perspektiv
+
+Fick en guide från julius om hur man skapar en enkel chat app för att skicka meddelande och testade hur man skapar det.
+
+4hr

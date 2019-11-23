@@ -1,0 +1,5 @@
+19-11
+
+jobabde med xcode och testade en guide på hur man skapar en smart chatbot genom extern bibliotek cocoapods i xcode och hur man använder machine learning för en chatbot.
+
+1hr

@@ -1,0 +1,11 @@
+vecka 3
+
+Den här vecka hade vi fokuserat lite mer på koden för att få en grund app vi kan använda samt lite läsning om hur man skapar chatbot . Vi hade ett mål att tills onsdag ska vi ha ett "hello world" i xCode och ska bekanta oss med xCode och swift. Eftersom det var ganska enkelt att skapa en hello world i xCode tog jag en guide i youtube om hur man skapar en enkelt spel i xcode för att bekanta mig med språket och xCode
+
+Sen hade vi ett möte gruppen för att prata med borås för at tfå lite mer teknisk bakgrund om projektet och fick lite mer information om vilka saker är vettigt att ha i appen.
+
+Sen fick en guide från julius om hur man skapar en chat app i xcode. Det verkar som en bra grund app vi kan använda för att utveckla smart chatbot
+
+Det verkar som det blir mycket rapport skrivning och och inte mycket utveckling av appen just nu. Detta känns väldigt tråkigt och ganska önödigt att ha halvtidsrapport, betygsättning för gruppmedlemar,  veckorapport för gruppen samt arbeta med appen och andra kursen man har i sidan. 
+
+det är ganska jobbigt att ha 6 person som ska skriva till en rapport som ska vara halvfärdig eftersom vi har precis börjat utveckla appen. just nu fick jag inte så mycket chans att skriva i rapporten för de flesta saker är redan klar och arbetet för rapporten är redan fördelat. 
