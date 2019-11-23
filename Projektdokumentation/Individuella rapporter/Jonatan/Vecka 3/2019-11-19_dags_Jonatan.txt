@@ -1,0 +1,5 @@
+Tisdag 19/11
+
+Installerat xcode och startat upp ett testprojekt och bekantat mig lite med xcode. Kollat lite tutorials på hur man kan ta sig an projektet vi ska utföra.
+
+Arbetstid: 1,5h
