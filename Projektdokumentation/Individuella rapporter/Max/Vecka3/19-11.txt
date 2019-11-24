@@ -2,7 +2,9 @@
 
 Hello, Chatbot! - projekt skapat i xCode.
 
+Vidare utveckling av det individuella projektet i xCode.
 
 
 
-5 timmar
+
+4 timmar
