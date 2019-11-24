@@ -5,4 +5,4 @@ Faktainhämtning för xCode och Swift.
 För att möta första deadlinen som innebär att alla i gruppen skulle bygga sitt egna hello-world projekt i xCode
 så påbörjades jobbet på ett individiuellt projekt. Tanken var att man skulle kunna sätta sig in i utvecklingsmiljön.
 
-Fyra timmar
+Timmar: 4

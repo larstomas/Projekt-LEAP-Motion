@@ -2,11 +2,28 @@ Veckorapport #3.
 
 Projektledare: Julius Andersson
 
+Veckan började med att alla gruppmedlemmar skulle, individuellt, sätta sig in i Xcode och utvecklingsmiljöena.
+Vi hade satt en deadline till på onsdagen då alla skulle ha satt upp Xcode och ett Hello-world-projekt.
+
+Syftet med detta var att få alla att, så snabbt som möjligt, komma in i Xcode och utvecklingsmiljön.
+
+Samtidigt som detta pågick, i början av veckan, så hade en uppdelning av halvtidsrapporten gjorts. Detta 
+möjliggjorde att vi kunde börja fundera på den och planera hur den skulle läggas upp.
+
+Deadlinen på onsdagen sammanföll med ett möte med Erik Valvring. Vi bekräftade kort att alla var på samma sida från
+senaste mötet samt att vi fick möjligheten att boka ett besök för senare tid.
+
+Det bestämdes att vi skulle försöka lösa Testflight som ett sätt att visa upp produkten senare. Testflight är ett 
+system för iOS-utvecklare att låta folk "testa" appen man utvecklar utan att lägga upp den på App-store. Så
+i detta fallet sätter man beställarna som testare så att de kan se appen på sina egna enheter.
+
+Sista timmarna av veckan delades upp i två grupper. En som skulle fokusera på halvtidsrapporten och en annan som skulle 
+tackla nästa deadline - nämligen echo-bot. Att få vårat Hello-World projekt att börja se lite mer ut som vår chat-bot.
+
+Jag, tillsammans med Oscar och Jonatan skrev på halvtidsrapporten. 
 
 
-
-12,5 + fredag  timmar
-
+16 timmar
 
 
 
