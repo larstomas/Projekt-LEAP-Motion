@@ -1,5 +1,12 @@
 # Projekt-LEAP-Motion
 
+## Hur vi använder Git:
+- All typ av administrativt arbete sker till och från Mastern, direkt.
+- All utveckling görs på egna individuella feature-brancher som branchas ut från DEV-branchen (ej master).
+- I slutet av sprinten (senast måndag) mergas development in i Master.
+
+
+
 ## Resurser utanför GitHub
 - [GruppInfo.xlsx](https://docs.google.com/spreadsheets/d/1Tqx8ix3DK9aa-yicXg5oM55bOjD0VTfDCEZt_TeJPVA/edit?usp=sharing)
 - [ProjektledareInfo.xlsx](https://docs.google.com/spreadsheets/d/1aRaTEjPYkTkzB0UXmYtrtlhWuvX2_WPkVutJGcKPkMM/edit?usp=sharing)
