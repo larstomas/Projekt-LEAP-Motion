@@ -20,8 +20,8 @@ class ChatController : ObservableObject {
     // We've relocated the messages from the main SwiftUI View. Now, if you wish, you can handle the networking part here and populate this array with any data from your database. If you do so, please share your code and let's build the first global open-source chat app in SwiftUI together
     // It has to be @Published in order for the new updated values to be accessible from the ContentView Controller
     @Published var messages = [
-        ChatMessage(message: "Hej", avatar: "Ful gammal tröja", color: .red),
-        ChatMessage(message: "Saknar du mig?", avatar: "Ful gammal tröja", color: .blue)
+        ChatMessage(message: "Hej", avatar: "Gul Gina Tricot-tröja.", color: .red),
+        ChatMessage(message: "Du har inte använt mig på ett haövår, saknar du inte mig?", avatar: "Gul Gina Tricot-tröja.", color: .blue)
     ]
     
     // this function will be accessible from SwiftUI main view
