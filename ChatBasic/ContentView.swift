@@ -74,7 +74,7 @@ struct ContentView : View {
                 TextField("Message...", text: $composedMessage).frame(minHeight: CGFloat(30))
                 // the button triggers the sendMessage() function written in the end of current View
                 Button(action: sendMessage) {
-                    Text("Send")
+                    Text("Skicka")
                 }
             }.frame(minHeight: CGFloat(50)).padding()
             // that's the height of the HStack
