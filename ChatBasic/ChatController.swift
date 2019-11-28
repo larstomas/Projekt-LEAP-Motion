@@ -39,7 +39,7 @@ class ChatController : ObservableObject {
     
     func parseMessage(_ chatMessage: ChatMessage){
         
-        print("hello tester")
+        print("Hello parser")
         
         
     }
