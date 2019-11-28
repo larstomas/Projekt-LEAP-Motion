@@ -1,0 +1,24 @@
+
+Veckorapport för vecka #3
+
+
+Projektledare: Julius Andersson
+
+I början av veckan kändes det som att vi äntligen skulle kunna ta lite avstamp i projektet och att det skulle bli den första ”riktiga” projektveckan där vi kunna börja dela upp projektdelarna och faktiskt börja koda. 
+Det kändes som att frustrationen från tidigare veckor äntligen skulle släppa men efter vi börjat dela upp arbetsuppgifterna insåg vi att det även var dags att skriva halvtidsrapport.
+
+Första veckomålet för veckan var att alla medlemmar skulle installera nödvändiga programvara för att jobba med swift mot iOS och sätt upp som ett första mål att alla skulle ha producerat en Hello World till på onsdagen. 
+Fram till onsdagen skulle vi även leta runt efter olika guider och implementationer på hur man kan göra en chatbot och dela dessa med varandra för att hitta en sätt att arbeta som passade gruppen.
+
+På onsdagen träffades vi igen för att ha ett gruppmöte med även ett ytterligare möte med Smart Textiles. Syftet med mötet med Smart Textiles var att få träffa ännu en av våra kontaktpersoner på företaget och att bestämma datum för när vi ska åka och träffa dom i Borås. 
+Under mötet kom vi fram till att vi skulle vänta så långt som möjligt med mötet i Borås så vi i gruppen faktiskt kan ha med oss något att presentera för Smart Textiles och att vi skulle spika tid lite längre framöver.
+
+Efter videomötet kollade vi igenom vad som fanns kvar att göra för veckan och på vilket sätt vi skulle implementera chatboten.
+Vi kom överens om att en del utav gruppen skulle lägga större fokus på skriva rapport och den andra på chatboten för att återigen stämma av på fredag.
+
+Vid avstämning på fredagen var vi färdiga med halvtidsrapporten och hade lyckats producera en enklare iOS app som bestod av en chattruta där det genereras ett automatiskt meddelande vid uppstart och som kunde ta emot meddelanden ifrån användaren.
+
+Sammanfattning och betyg:
+Jag ger gruppen betyget 4
+
+Jag tycker att gruppen fortsätter att tackla de motgångar som drabbar oss på ett positivt sätt. Trots att vårt arbetsflow blev lite hindrat av att behöva skriva halvtidsrapport delar vi upp arbetet och får ändå mycket gjort på lite tid. Ett litet minus för att vi stundvis är lite ineffektiva när vi ses och för att vi inte skrivit det vi kunnat på rapporten under tidigare veckor när vårt arbete blivit uppehåll av andra andledningar.
