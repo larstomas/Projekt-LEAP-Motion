@@ -1,6 +1,10 @@
-Vecka #1
+Vecka #4
 
 Projektledare: Jonatan Berkoo
+
+Veckan har på flera håll känts rätt så långsam. Mycket beror på att det är "sista" veckan inför halvtid. Vilket innebär
+att lite extra tid har lagts på rapport-skrivning och opponeringar. En annan del beror på att vi har kommit igång med Xcode och Swift vilket till viss del har lett till 
+mycket faktainsamling och vissa git-problem.
 
 
 Timmar: 11,5
