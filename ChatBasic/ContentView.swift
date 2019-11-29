@@ -17,30 +17,28 @@ struct ChatRow : View {
     var body: some View {
         // HStack - is a horizontal stack. We let the SwiftUI know that we need to place
         // all the following contents horizontally one after another
-        Group {
+        HStack{
+            
             if !chatMessage.isMe {
-                HStack {
-                    Group {
-                        Text(chatMessage.avatar)
-                        Text(chatMessage.message)
-                            .bold()
-                            .padding(10)
-                            .foregroundColor(Color.white)
-                            .background(Color.red)
-                            .cornerRadius(10)
-                    }
+                Group{
+                    Text(chatMessage.message)
+                    .bold()
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .background(chatMessage.color)
+                    .cornerRadius(15)
                 }
             } else {
-                HStack {
+                HStack{
                     Group {
                         Spacer()
+                        
                         Text(chatMessage.message)
-                            .bold()
-                            .foregroundColor(Color.white)
-                            .padding(10)
-                            .background(Color.blue)
+                        .bold()
+                        .padding(10)
+                        .foregroundColor(Color.white)
+                        .background(chatMessage.color)
                         .cornerRadius(10)
-                        Text(chatMessage.avatar)
                     }
                 }
             }
@@ -62,11 +60,16 @@ struct ContentView : View {
         VStack {
             // I've removed the text line from here and replaced it with a list
             // List is the way you should create any list in SwiftUI
-            List {
-                ForEach(chatController.messages, id: \.self) { msg in
-                    ChatRow(chatMessage: msg)
+            //nav change
+            NavigationView {
+                ScrollView () {
+                    VStack(alignment: .leading) {
+                        ForEach(chatController.messages, id: \.self) {msg in
+                            ChatRow(chatMessage: msg)
+                        }
+                    }
                 }
-            }
+            }.padding()
             
             // TextField are aligned with the Send Button in the same line so we put them in HStack
             HStack {
