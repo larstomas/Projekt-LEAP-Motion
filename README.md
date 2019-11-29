@@ -1,4 +1,9 @@
 # Projekt-LEAP-Motion
+## Hur vi använder Git:
+- All typ av administrativt arbete sker till och från Mastern, direkt.
+- All utveckling görs på egna individuella feature-brancher som branchas ut frå$
+- I slutet av sprinten (senast måndag) mergas development in i Master.
+
 
 ## Hur vi använder Git:
 - All typ av administrativt arbete sker till och från Mastern, direkt.
