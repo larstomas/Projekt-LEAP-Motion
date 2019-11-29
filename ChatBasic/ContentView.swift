@@ -71,7 +71,7 @@ struct ContentView : View {
             // TextField are aligned with the Send Button in the same line so we put them in HStack
             HStack {
                 // this textField generates the value for the composedMessage @State var
-                TextField("Message...", text: $composedMessage).frame(minHeight: CGFloat(30))
+                TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
                 // the button triggers the sendMessage() function written in the end of current View
                 Button(action: sendMessage) {
                     Text("Skicka")

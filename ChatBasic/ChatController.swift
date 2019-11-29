@@ -56,6 +56,10 @@ class ChatController : ObservableObject {
     func sendMessage(_ chatMessage: ChatMessage) {
         // here we populate the messages array
         messages.append(chatMessage)
+        
+        parseMessage(chatMessage)
+        
+        
         // here we let the SwiftUI know that we need to rebuild the views
         didChange.send(())
 
@@ -72,4 +76,10 @@ class ChatController : ObservableObject {
         return ret
     }
     
+    func parseMessage(_ chatMessage: ChatMessage){
+        
+        print("Hello parser")
+        
+        
+    }
 }
