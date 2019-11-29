@@ -54,6 +54,7 @@ struct ContentView : View {
      // @State here is necessary to make the composedMessage variable accessible from different views
     @State var composedMessage: String = ""
     @EnvironmentObject var chatController: ChatController
+
     
     var body: some View {
       
@@ -62,7 +63,6 @@ struct ContentView : View {
             // I've removed the text line from here and replaced it with a list
             // List is the way you should create any list in SwiftUI
             List {
-                // we have several messages so we use the For Loop
                 ForEach(chatController.messages, id: \.self) { msg in
                     ChatRow(chatMessage: msg)
                 }
