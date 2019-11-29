@@ -1,0 +1,14 @@
+Denna veckan har känts som den egentliga första riktiga projektveckan där 
+vi kunna börja dela upp projektdelarna och faktiskt börjat koda. Tyvärr bromsas detta av 
+att vi nu ska skriva omdömen och halvtidsrapporter.
+I början av veckan la jag tid på att installera xCode och bli bekant med utvecklingsmiljön.
+Letade även efter guider och kollade igenom olika sätt som andra har implementerat
+ chatbottar på.
+
+På onsdagen hade vi ytterligare ett möte med Smart Textiles inte gav så mycket mer
+ än en att vi fick träffa en till kontaktperson på företaget. Vi delade upp jobbet som
+var kvar för arbetsveckan och kom fram till att vi får ta fram ett skal som alla kan jobba
+utifrån. Jag provade några olika sätt att ta fram en grund för skalet och hittade ett som
+ var ganska lätt att förstå. Och det verkar som att det är det som vi kommer att använda.
+
+13h

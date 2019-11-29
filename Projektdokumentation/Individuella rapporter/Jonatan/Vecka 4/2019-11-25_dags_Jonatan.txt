@@ -1,0 +1,7 @@
+Måndag 25/11
+
+Min vecka som projektledare. Hade möte med gruppen där vi importerade xcode projektet till git så att alla har tillgång till koden. Sedan diskuterade vi arbetsuppdelningar vad gällande arbete med själva projektet kontra rapportskrivning. Skrev tasks för projektet, får se om vi hinner med allt denna veckan men nu har vi något att utgå ifrån.
+
+Rapportskrivning workshop. Fick feedback på vad vi gjort generellt och det känns som vi är på rätt spår. Skrev klart min del på halvtidsrapporten och diskuterade med gruppen vad vi saknade och hur vi ska dela in rapporten i kategorier.
+
+Arbetstid: 3h
