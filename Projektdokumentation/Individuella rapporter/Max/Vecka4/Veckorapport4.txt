@@ -6,8 +6,11 @@ Veckan har på flera håll känts rätt så långsam. Mycket beror på att det �
 att lite extra tid har lagts på rapport-skrivning och opponeringar. En annan del beror på att vi har kommit igång med Xcode och Swift vilket till viss del har lett till 
 mycket faktainsamling och vissa git-problem.
 
+Mycket "spelregler" kring git och användandet av det har bestämts och utvecklats. Vi testade lite olika sätt att 
+producera uppgifter (tasks) att genomföra och hur vi skulle förhålla oss till dessa.
+Senaste budet säger att vi ska gemensamt komma fram till 
 
-Timmar: 11,5
+Timmar: 15,5
 
 
 
