@@ -8,7 +8,12 @@ mycket faktainsamling och vissa git-problem.
 
 Mycket "spelregler" kring git och användandet av det har bestämts och utvecklats. Vi testade lite olika sätt att 
 producera uppgifter (tasks) att genomföra och hur vi skulle förhålla oss till dessa.
-Senaste budet säger att vi ska gemensamt komma fram till 
+Senaste budet säger att vi ska gemensamt komma fram till ett antal uppgifter och tasks på måndagen. Dessa
+ska senare utföras under veckan och på kommande måndag ska vi uppdatera/ändra/komma på nya för veckan därpå.
+
+Halvtidsrapporten har inneburit rapport-skrivande men också opponering på opponentgrupp.
+
+
 
 Timmar: 15,5
 
