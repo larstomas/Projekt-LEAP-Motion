@@ -46,7 +46,7 @@ class ChatController : ObservableObject {
                 
                 messages.append(ChatMessage(message: "Hej du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
               
-              messages.append(ChatMessage(message: "Ska du inte använda mig snart?", avatar: gar.name , color: .red))
+              messages.append(ChatMessage(message: "Tycker du inte om mig längre?", avatar: gar.name , color: .red))
           }
         }
     }
@@ -76,10 +76,90 @@ class ChatController : ObservableObject {
         return ret
     }
     
-    func parseMessage(_ chatMessage: ChatMessage){
+    func parseMessage(_ chatMessage: ChatMessage) -> Bool{
         
+        if (chatMessage.message == "Ja") {
+            return true
+        }
         print("Hello parser")
+        return false
+        
+    }
+    
+    var chatId : integer_t = 1
+    
+    
+    func generateAnswer(p: Bool) -> String{
+        var answer : String
         
         
+        switch chatId {
+            //Vill du ha kvar mig i garderoven?
+        case 1:
+            if(p){
+                answer = "Okej vad tråkigt att höra, vi har ju haft så kul tillsammans. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig?"
+                //ChatId = Sälja
+                chatId = 2
+            }
+            else{
+                answer = "Okej men då hänger jag kvar här i garderoben. Hoppas vi ses snart! Ha de gött"
+                chatId = 0
+            }
+            break
+            
+            // Vill du sälja mig
+        case 2:
+                if(p){
+                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en anons för mig på tradera för 300 kr?"
+                    //Tradera
+                    chatId = 3
+                }
+                else{
+                    answer = "Okej. Men det är ju dumt att jag bara hänger här i garderoben och tar upp plats. Du vill inte skänka mig till Röda Koset då?"
+                    //Röda korset
+                    chatId = 4
+                }
+                break
+            //Lägga upp mig på tradera?
+            case 3:
+                    if(p){
+                        answer = "Perfekt! Nu har jag lagt upp min annons på tradera. Kan HUGO hämta upp mig kl 18:30 idag?"
+                        //Hugo hämtning
+                        chatId = 5
+                    }
+                    else{
+                        answer = "Okej. Vad tycker du jag ör värd om jag inte är värd 300 kr?"
+                        chatId = 3
+                    }
+                    break
+            //Röda Korset
+            case 4:
+                    if(p){
+                        answer = "Vad snäll du är som kan tänka dig att skicka vidare mig så jag kan skänka lycka till någon annan! Kan HUGO hämta upp mig kl 18:30?"
+                        //Hugo hämtning
+                        chatId = 5
+                    }
+                    else{
+                        answer = "Jaha. Så du vill inte sälja mig eller skänka mig vidare. Är det för att jag är trasig?"
+                        chatId = 6
+                    }
+                    break
+            //HUGO hämtning
+            case 5:
+                    if(p){
+                        answer = "Perfekt! Jag hör av mig när HUGO nörmar sig så kan du bära ner mig. Jag har nämligen lite svårt att ta mig ner sälv. Vi ses om en stund!"
+                        //Hugo hämtning
+                        chatId = 5
+                    }
+                    else{
+                        answer = "Okej men kan du föreslå en tid som passar dig?"
+                        chatId = 5
+                    }
+                    break
+
+        default:
+            answer = "Chatoption not supported yet. Chatid:" + String(chatId)
+        }
+        return answer
     }
 }

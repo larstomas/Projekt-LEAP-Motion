@@ -85,7 +85,12 @@ struct ContentView : View {
     }
     func sendMessage() {
         chatController.sendMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
+        let yesOrNo : Bool = chatController.parseMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
+        
+        
         composedMessage = ""
+        
+        chatController.sendMessage(ChatMessage(message: chatController.generateAnswer(p:yesOrNo), avatar: "Tröja", color: .red))
     }
 }
 
