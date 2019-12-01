@@ -57,30 +57,27 @@ struct ContentView : View {
     var body: some View {
       
         // the VStack is a vertical stack where we place all our substacks like the List and the TextField
-        VStack {
-            // I've removed the text line from here and replaced it with a list
-            // List is the way you should create any list in SwiftUI
-            //nav change
-            NavigationView {
-                ScrollView () {
-                    VStack(alignment: .leading, spacing: 8) {
-                        ForEach(chatController.messages, id: \.self) {msg in
+        NavigationView {
+            VStack {
+                ReverseScrollView {
+                    VStack (spacing: 5){
+                        ForEach(self.chatController.messages, id: \.self) { msg in
                             ChatRow(chatMessage: msg)
                         }
                     }
                 }
-            }.padding()
-            
-            // TextField are aligned with the Send Button in the same line so we put them in HStack
-            HStack {
-                // this textField generates the value for the composedMessage @State var
-                TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
-                // the button triggers the sendMessage() function written in the end of current View
-                Button(action: sendMessage) {
-                    Text("Skicka")
-                }
-            }.frame(minHeight: CGFloat(50)).padding()
-            // that's the height of the HStack
+                
+                // TextField are aligned with the Send Button in the same line so we put them in HStack
+                HStack {
+                    // this textField generates the value for the composedMessage @State var
+                    TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
+                    // the button triggers the sendMessage() function written in the end of current View
+                    Button(action: sendMessage) {
+                        Text("Skicka")
+                    }
+                }.frame(minHeight: CGFloat(50)).padding()
+                // that's the height of the HStack
+            }
         }
     }
     func sendMessage() {
