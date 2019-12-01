@@ -1,0 +1,37 @@
+total tid: 19h
+
+Vi inledde veckan med ett möte där vi gick igenom våra regler för hur vi ska arbeta
+med git. Det känndes bra att hålla det uppstyrt efersom vi kommer arbeta mer invididuellt.
+Vi fortsatte mötet med att skriva tasks och återupptog snabt arbeter på rapporten innan
+det var dags att gå till vårt obligatoriska skrivpass.
+Skrivpasset var ok. Det var bra att vi kunde visa upp rapporten och få feedback på den, men
+det känndes konstigt att det var obligatoriskt att gå på den. Denna kunnskap borde alla som
+läser denna kurs redan besitta. Under passet kunde vi också passa på att skriva en del på
+rapporten.
+Senare under dagen skrev jag klart rapporten och la upp den på Canvas, men det fanns ingen
+lista där jag kunde skicka rapporten till vår opponentgrupp. Skrev ett email till Sakib
+om detta.
+
+På Onsdagen jobbade jag tillsammans med Max i Xcode. Vi gick igenom programmet hittils och
+samlade information för att kunna gå vidare med parsing och svarsgenerering. Vi skrev en
+liten debug funktion för att kunna förstå programmet bättre och ha något att arbeta efter
+när vi jobbar på parsing. Vi hade svårt att gå vidare eftersom det skulle bli allderles
+för många git konflikter. Vi måste lösa detta på fredag och förtydliga reglerna för hur vi
+ska hantera git.
+
+På Fredagen höll vi ett möte där vi började med att lösa git konflikter. Vi uppdaterade
+våra regkler för hur vi ska arbeta med git, vilket jag tyckte könndes bra.
+Vi fortsatte med att planera inför opponering och presentationen, eftersom det är nästa
+kommande deadline.
+Vi pratade sen också om att vi måste strukturera arbetet bättre för att kunna arbeta på
+olika håll, annars kanske det blir bättre om vi ses och har "codeing sessions".
+
+Efter mötet skrev jag ner mina dagliga rapporter och veckorapport. Det har hänt så mycket
+under veckan att jag inte har hittat tid för att göra det förens nu.
+
+På lördagen opponerade jag på vår andra grupps rapport och förberedde inför presentation på måndag.
+
+På söndag skrev jag en funktion som kan generera svarsmeddelanden i vårt projekt. Det känndes
+skönt att kunna bidra med lite kodning under veckan också.
+Jag passade även på att uppdatera min veckorapport.
+
