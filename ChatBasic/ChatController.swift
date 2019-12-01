@@ -98,7 +98,6 @@ class ChatController : ObservableObject {
         case 1:
             if(p){
                 answer = "Okej vad tråkigt att höra, vi har ju haft så kul tillsammans. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig?"
-                //ChatId = Sälja
                 chatId = 2
             }
             else{
@@ -149,7 +148,7 @@ class ChatController : ObservableObject {
                     if(p){
                         answer = "Perfekt! Jag hör av mig när HUGO nörmar sig så kan du bära ner mig. Jag har nämligen lite svårt att ta mig ner sälv. Vi ses om en stund!"
                         //Hugo hämtning
-                        chatId = 5
+                        chatId = 0
                     }
                     else{
                         answer = "Okej men kan du föreslå en tid som passar dig?"
@@ -158,7 +157,7 @@ class ChatController : ObservableObject {
                     break
 
         default:
-            answer = "Chatoption not supported yet. Chatid:" + String(chatId)
+            answer = "Chatboten har inte stöd för denna konversationen än. Chatid:" + String(chatId)
         }
         return answer
     }
