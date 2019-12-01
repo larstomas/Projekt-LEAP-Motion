@@ -63,7 +63,7 @@ struct ContentView : View {
             //nav change
             NavigationView {
                 ScrollView () {
-                    VStack(alignment: .leading) {
+                    VStack(alignment: .leading, spacing: 8) {
                         ForEach(chatController.messages, id: \.self) {msg in
                             ChatRow(chatMessage: msg)
                         }

@@ -57,7 +57,7 @@ class ChatController : ObservableObject {
         // here we populate the messages array
         messages.append(chatMessage)
         
-        parseMessage(chatMessage)
+        //parseMessage(chatMessage)
         
         
         // here we let the SwiftUI know that we need to rebuild the views

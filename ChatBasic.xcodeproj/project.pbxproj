@@ -17,6 +17,7 @@
 		D8AF80F02385CA2C001071FA /* ChatBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF80EF2385CA2C001071FA /* ChatBasicTests.swift */; };
 		D8AF80FB2385CA2C001071FA /* ChatBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF80FA2385CA2C001071FA /* ChatBasicUITests.swift */; };
 		D8AF81092385CDED001071FA /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF81082385CDED001071FA /* ChatController.swift */; };
+		EAC79BF323945A34004E6755 /* ReverseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC79BF223945A34004E6755 /* ReverseScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D8AF80FA2385CA2C001071FA /* ChatBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBasicUITests.swift; sourceTree = "<group>"; };
 		D8AF80FC2385CA2C001071FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AF81082385CDED001071FA /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		EAC79BF223945A34004E6755 /* ReverseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D8AF80DC2385CA22001071FA /* ContentView.swift */,
 				D8AF80DE2385CA2B001071FA /* Assets.xcassets */,
 				D8AF80E32385CA2B001071FA /* LaunchScreen.storyboard */,
+				EAC79BF223945A34004E6755 /* ReverseScrollView.swift */,
 				D8AF80E62385CA2B001071FA /* Info.plist */,
 				D8477267238EB17900C48BF8 /* Garment.swift */,
 				D8AF81082385CDED001071FA /* ChatController.swift */,
@@ -277,6 +280,7 @@
 				D8AF80DB2385CA22001071FA /* SceneDelegate.swift in Sources */,
 				D8477268238EB17900C48BF8 /* Garment.swift in Sources */,
 				D8AF80DD2385CA22001071FA /* ContentView.swift in Sources */,
+				EAC79BF323945A34004E6755 /* ReverseScrollView.swift in Sources */,
 				D8AF81092385CDED001071FA /* ChatController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
