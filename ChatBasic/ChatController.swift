@@ -46,7 +46,7 @@ class ChatController : ObservableObject {
                 
                 messages.append(ChatMessage(message: "Hej du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
               
-              messages.append(ChatMessage(message: "Tycker du inte om mig längre?", avatar: gar.name , color: .red))
+              messages.append(ChatMessage(message: "Är det inte dags att vi ses nån gång snart igen?", avatar: gar.name , color: .red))
           }
         }
     }
@@ -94,9 +94,13 @@ class ChatController : ObservableObject {
         
         
         switch chatId {
+            //Reset
+        case 0:
+            answer = "Är det inte dags att vi ses nån gång snart igen?"
+            chatId = 1
             //Vill du ha kvar mig i garderoven?
         case 1:
-            if(p){
+            if(!p){
                 answer = "Okej vad tråkigt att höra, vi har ju haft så kul tillsammans. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig?"
                 chatId = 2
             }
@@ -146,7 +150,7 @@ class ChatController : ObservableObject {
             //HUGO hämtning
             case 5:
                     if(p){
-                        answer = "Perfekt! Jag hör av mig när HUGO nörmar sig så kan du bära ner mig. Jag har nämligen lite svårt att ta mig ner sälv. Vi ses om en stund!"
+                        answer = "Perfekt! Jag hör av mig när HUGO nörmar sig så kan du bära ut mig. Jag har nämligen lite svårt att ta mig ut sälv. Vi ses om en stund!"
                         //Hugo hämtning
                         chatId = 0
                     }
@@ -158,6 +162,7 @@ class ChatController : ObservableObject {
 
         default:
             answer = "Chatboten har inte stöd för denna konversationen än. Chatid:" + String(chatId)
+            chatId = 0
         }
         return answer
     }
