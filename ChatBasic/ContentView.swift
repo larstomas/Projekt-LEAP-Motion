@@ -52,6 +52,7 @@ struct ContentView : View {
      // @State here is necessary to make the composedMessage variable accessible from different views
     @State var composedMessage: String = ""
     @EnvironmentObject var chatController: ChatController
+    let fontName = "System Font"
 
     
     var body: some View {
@@ -60,12 +61,14 @@ struct ContentView : View {
         NavigationView {
             VStack {
                 ReverseScrollView {
-                    VStack (spacing: 5){
+                    VStack (alignment: .leading, spacing: 8){
                         ForEach(self.chatController.messages, id: \.self) { msg in
-                            ChatRow(chatMessage: msg)
+                            ChatRow(chatMessage: msg).fixedSize(horizontal: false, vertical: true)
+                            
                         }
                     }
-                }
+                //}
+                }.padding(5)
                 
                 // TextField are aligned with the Send Button in the same line so we put them in HStack
                 HStack {
@@ -78,12 +81,12 @@ struct ContentView : View {
                 }.frame(minHeight: CGFloat(50)).padding()
                 // that's the height of the HStack
             }
+            .navigationBarTitle("HELLO")
         }
     }
     func sendMessage() {
         chatController.sendMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
         let yesOrNo : Bool = chatController.parseMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
-        
         
         composedMessage = ""
         

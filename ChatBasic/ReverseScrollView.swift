@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct ReverseScrollView<Content>: View where Content: View {
     @State private var contentHeight: CGFloat = CGFloat.zero
     @State private var scrollOffset: CGFloat = CGFloat.zero
@@ -15,9 +16,9 @@ struct ReverseScrollView<Content>: View where Content: View {
     
     var content: () -> Content
     
-    func offset(outerheight: CGFloat, innerheight: CGFloat) -> CGFloat
-    {
-        print("outerheight: \(outerheight) innerheight: \(outerheight)")
+    // Calculate content offset
+    func offset(outerheight: CGFloat, innerheight: CGFloat) -> CGFloat {
+        print("outerheight: \(outerheight) innerheight: \(innerheight)")
         
         let totalOffset = currentOffset + scrollOffset
         return -((innerheight/2 - outerheight/2) - totalOffset)
@@ -25,41 +26,43 @@ struct ReverseScrollView<Content>: View where Content: View {
     
     var body: some View {
         GeometryReader { outerGeometry in
-            //render the content
-            //set its sizing inside the parent
-            
+            // Render the content
+            //  ... and set its sizing inside the parent
             self.content()
-                .modifier(ViewHeightKey())
-                .onPreferenceChange(ViewHeightKey.self) {self.contentHeight = $0}
-                .frame(height: outerGeometry.size.height)
-                .offset(y: self.offset(outerheight: outerGeometry.size.height, innerheight: self.contentHeight))
-                .clipped()
-                .animation(.easeInOut)
-                .gesture(
-                    DragGesture()
-                        .onChanged({self.onDragChanged($0) })
-                        .onEnded({self.onDragEnded($0, outerHeight: outerGeometry.size.height)})
-                )
+            .modifier(ViewHeightKey())
+            .onPreferenceChange(ViewHeightKey.self) { self.contentHeight = $0 }
+            .frame(height: outerGeometry.size.height)
+            .offset(y: self.offset(outerheight: outerGeometry.size.height, innerheight: self.contentHeight))
+            .clipped()
+            .animation(.easeInOut)
+            .gesture(
+                 DragGesture()
+                    .onChanged({ self.onDragChanged($0) })
+                    .onEnded({ self.onDragEnded($0, outerHeight: outerGeometry.size.height)}))
         }
     }
     
     func onDragChanged(_ value: DragGesture.Value) {
-        print("start: \(value.startLocation.y)")
-        print("start: \(value.location.y)")
+        // Update rendered offset
+        print("Start: \(value.startLocation.y)")
+        print("Start: \(value.location.y)")
         self.scrollOffset = (value.location.y - value.startLocation.y)
-        print("ScrollOffset: \(self.scrollOffset)")
+        print("Scrolloffset: \(self.scrollOffset)")
     }
     
     func onDragEnded(_ value: DragGesture.Value, outerHeight: CGFloat) {
+        // Update view to target position based on drag position
         let scrollOffset = value.location.y - value.startLocation.y
-        print("ended currentOffset = \(self.currentOffset) scrollOffset = \(scrollOffset)")
+        print("Ended currentOffset=\(self.currentOffset) scrollOffset=\(scrollOffset)")
         
         let topLimit = self.contentHeight - outerHeight
-        print("topLimit = \(topLimit))")
+        print("toplimit: \(topLimit)")
         
-        if topLimit < 0{
-            self.currentOffset = 0
+        // Negative topLimit => Content is smaller than screen size. We reset the scroll position on drag end:
+        if topLimit < 0 {
+             self.currentOffset = 0
         } else {
+            // We cannot pass bottom limit (negative scroll)
             if self.currentOffset + scrollOffset < 0 {
                 self.currentOffset = 0
             } else if self.currentOffset + scrollOffset > topLimit {
@@ -68,7 +71,7 @@ struct ReverseScrollView<Content>: View where Content: View {
                 self.currentOffset += scrollOffset
             }
         }
-        print("new currentOffset = \(self.currentOffset)")
+        print("new currentOffset=\(self.currentOffset)")
         self.scrollOffset = 0
     }
 }
@@ -87,18 +90,3 @@ extension ViewHeightKey: ViewModifier {
         })
     }
 }
-
-/*
-struct ReverseScrollView_Previews: PreviewProvider {
-    static var previews: some View {
-        ReverseScrollView {
-            VStack {
-                ForEach(demoConversation.messages) { message in
-                    BubbleView(message: "Hello")
-                }
-            }
-        }
-        .previewLayout(.sizeThatFits)
-    }
-}
-*/
