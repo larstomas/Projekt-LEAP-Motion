@@ -78,7 +78,7 @@ class ChatController : ObservableObject {
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
         
-        if (chatMessage.message == "Ja") {
+        if (chatMessage.message.lowercased().contains("ja ")) {
             return true
         }
         print("Hello parser")
