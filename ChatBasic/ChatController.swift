@@ -88,6 +88,7 @@ class ChatController : ObservableObject {
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
         
+
         if (chatMessage.message.lowercased().containsExact(word: "ja")) {
             return true
         }
