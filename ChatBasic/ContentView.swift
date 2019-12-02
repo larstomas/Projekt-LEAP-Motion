@@ -27,6 +27,7 @@ struct ChatRow : View {
                     .foregroundColor(Color.white)
                     .background(chatMessage.color)
                     .cornerRadius(15)
+                    .padding(.bottom, 2)
                 }
             } else {
                 HStack{
@@ -39,6 +40,7 @@ struct ChatRow : View {
                         .foregroundColor(Color.white)
                         .background(chatMessage.color)
                         .cornerRadius(10)
+                        .padding(.bottom, 2)
                     }
                 }
             }
