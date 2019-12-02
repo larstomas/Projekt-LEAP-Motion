@@ -1,0 +1,5 @@
+2019-11-27
+
+jobbade med UI av appen, och implementerade en bättre scroll funktion för meddelande i appen. den använder en annan typ av view nu så man slipper den grå linje mellan varje meddelande men det fanns mer förbättring som kan göras. Detta sparades lokalt och inte i git än för jag ville testa saker först. Gjorde lite research om navigation och scrollview
+
+6hr
