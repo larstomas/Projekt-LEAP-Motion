@@ -1,0 +1,7 @@
+Måndag 2/12
+
+Haft halvtidsredovisning och opponering på morgonen som gick jättebra.
+
+Skrivit på chatboten hemma. Fixat en utökad lösning för "ja"-svar till chatboten och lagt till spacing mellan meddelanden.
+
+Arbetstid: 5h
