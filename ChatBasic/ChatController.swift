@@ -98,7 +98,7 @@ class ChatController : ObservableObject {
         case 0:
             answer = "Är det inte dags att vi ses nån gång snart igen?"
             chatId = 1
-            //Vill du ha kvar mig i garderoven?
+            //Vill du ha kvar mig i garderoben?
         case 1:
             if(!p){
                 answer = "Okej vad tråkigt att höra, vi har ju haft så kul tillsammans. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig?"
@@ -118,7 +118,7 @@ class ChatController : ObservableObject {
                     chatId = 3
                 }
                 else{
-                    answer = "Okej. Men det är ju dumt att jag bara hänger här i garderoben och tar upp plats. Du vill inte skänka mig till Röda Koset då?"
+                    answer = "Okej. Men det är ju dumt att jag bara hänger här i garderoben och tar upp plats. Du vill inte skänka mig till Röda Korset då?"
                     //Röda korset
                     chatId = 4
                 }
@@ -157,6 +157,30 @@ class ChatController : ObservableObject {
                     else{
                         answer = "Okej men kan du föreslå en tid som passar dig?"
                         chatId = 5
+                    }
+                    break
+            //Är jag trasig?
+            case 6:
+                    if(p){
+                        answer = "Aj aj aj. Men om du har sparat mig så länge trotts att jag ör trasig så kanske du vill laga mig? Så att vi kan hänga som vi brukade göra förut."
+                        //Hugo hämtning
+                        chatId = 7
+                    }
+                    else{
+                        answer = "Okej men då hänger jag kvar här i garderoben för det verkar som att du ändå vill använda mig någon gång. Hoppas vi ses snart! Ha de gött så länge."
+                        chatId = 0
+                    }
+                    break
+            //Laga sjvöl eller skräddare
+            case 7:
+                    if(p){
+                        answer = "Vill du att HUGO ska hömta mig och köra till en skräddare så att vi kan hänga som vi brukade?"
+                        //Hugo hämtning
+                        chatId = 7
+                    }
+                    else{
+                        answer = "Är det du som ör döden? Har du kommit för att hämta mig? Är det dag att säga farväl?"
+                        chatId = 8
                     }
                     break
 
