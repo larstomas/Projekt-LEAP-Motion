@@ -1,0 +1,19 @@
+Veckorapport för vecka #4
+
+Projektledare: Jonatan Berko
+
+Veckan inleddes med ett gruppmöte där det diskuterades uppdelning av tasks och gitstruktur. Eftersom deadline för halvtidsrapport, opponering och presentation låg nära i tiden så delades gruppen upp i två läger där en grupp arbetade med rapport och två mixade grupper med opponering och redovisning. Alla förväntades koda lite vid sidan av. Under samma möte skrevs tasks till trello-boarden så att alla medlemmar kunde börja arbeta individuellt. Det lades även upp en generell struktur för versionshantering på github.
+
+På onsdagen skulle gruppen egentligen ses igen men det mötet ställdes in då den generella känslan var att det var viktigare att prioritera det arbetet vi planerat individuellt och det fanns egentligen inget viktigt att prata om på mötet. 
+
+På fredagen träffades gruppen för möte. Vid mötet fanns det en känsla hos delar av gruppen att arbetet inte gick så effektivt och det diskuterades bakomliggande orsaker och möjligheter för att lösa problemet. Mycket sades bero på att det rapportskrivning och dylikt administrativt arbete stal tid denna veckan samtidigt som versionshanteringen inte hade fungerat ordentligt. Även om arbete hade utförts på själva produkten hade det inte pushats ut vilket i det tidiga skedet av utvecklingen haltade andra medlemmar att arbeta pga risk av mergekrockar och dubbelarbete.
+
+I slutet av mötet mergades det arbetet som utförts så att varje gruppmedlem hade en uppdaterad version av projektet och en tydligare gitstruktur sattes upp så att hela gruppen kan arbeta effektivare.
+
+
+Sammanfattning och betyg:
+
+Jag kommer att ge gruppen betyget: 4
+
+Motivering:
+Denna veckan har arbetet gått långsamt framåt. Trots att det har varit många distraktioner från själva utvecklingen, så som rapportskrivning, opponering och redovisning borde vi ha kunnat få mer gjort. Trots det så har vi skrivit ett väldigt bra utkast på rapporten (halvtidsrapporten) och förberett en bra opponering och presentation. Dessutom har vi lagt en god bas för de kommande veckorna där jag tror att den större delen av själva utvecklingen kommer att ske.
