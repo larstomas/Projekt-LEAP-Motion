@@ -9,6 +9,14 @@
 import Foundation
 import Combine
 import SwiftUI
+import Swift
+
+extension String {
+    func containsExact(word : String) -> Bool
+    {
+        return self.range(of: "\\b\(word)\\b", options: .regularExpression) != nil
+    }
+}
 
 
 // ChatController needs to be a ObservableObject in order
@@ -76,9 +84,12 @@ class ChatController : ObservableObject {
         return ret
     }
     
+    
+    
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
         
-        if (chatMessage.message.lowercased().contains("Ja")) {
+
+        if (chatMessage.message.lowercased().containsExact(word: "ja")) {
             return true
         }
         print("Hello parser")
