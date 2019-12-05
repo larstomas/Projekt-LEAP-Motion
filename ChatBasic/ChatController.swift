@@ -170,30 +170,42 @@ class ChatController : ObservableObject {
                         chatId = 5
                     }
                     break
-            //Är jag trasig?
+            //Laga?
             case 6:
                     if(p){
-                        answer = "Aj aj aj. Men om du har sparat mig så länge trotts att jag ör trasig så kanske du vill laga mig? Så att vi kan hänga som vi brukade göra förut."
+                        answer = "Aj aj aj. Men om du har sparat mig så länge trotts att jag ör trasig, ska jag boka en tid så att en skräddare kan laga mig?"
                         //Hugo hämtning
                         chatId = 7
                     }
                     else{
-                        answer = "Okej men då hänger jag kvar här i garderoben för det verkar som att du ändå vill använda mig någon gång. Hoppas vi ses snart! Ha de gött så länge."
-                        chatId = 0
-                    }
-                    break
-            //Laga sjvöl eller skräddare
-            case 7:
-                    if(p){
-                        answer = "Vill du att HUGO ska hömta mig och köra till en skräddare så att vi kan hänga som vi brukade?"
-                        //Hugo hämtning
-                        chatId = 7
-                    }
-                    else{
-                        answer = "Är det du som ör döden? Har du kommit för att hämta mig? Är det dag att säga farväl?"
+                        answer = "Okej, vill du återvinna mig?"
                         chatId = 8
                     }
                     break
+            //Skräddare
+            case 7:
+                    if(p){
+                        answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste skräddare?"
+                        //Hugo hämtning
+                        chatId = 5
+                    }
+                    else{
+                        answer = "Vill du återvinna mig?"
+                        chatId = 8
+                    }
+                    break
+            //Återvinna
+        case 8:
+                if(p){
+                    answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste återvinningsstation?"
+                    //Hugo hämtning
+                    chatId = 5
+                }
+                else{
+                    answer = "Men då hänger jag kvar i garderoben så kan du bestämma senare vad du vill göra med mig?"
+                    chatId = 0
+                }
+                break
 
         default:
             answer = "Chatboten har inte stöd för denna konversationen än. Chatid:" + String(chatId)
