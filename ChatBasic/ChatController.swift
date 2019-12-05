@@ -57,7 +57,7 @@ class ChatController : ObservableObject {
                 
                 messages.append(ChatMessage(message: "Hej du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
               
-              messages.append(ChatMessage(message: "Är det inte dags att vi ses nån gång snart igen?", avatar: gar.name , color: .red))
+              messages.append(ChatMessage(message: "Är det inte dags att vi ses nån gång snart igen? ☺️", avatar: gar.name , color: .red))
           }
         }
     }
@@ -88,8 +88,12 @@ class ChatController : ObservableObject {
     
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
-        let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna"]
+        let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna", "perfekt"]
         let str = chatMessage.message;
+        
+        //Quick fix for empty messages
+        if(str == ""){return false}
+        
         let answer = str.split(separator: " ")[0].lowercased()
         if(debugMode){print("Answer: ", answer)}
         
@@ -113,16 +117,16 @@ class ChatController : ObservableObject {
         switch chatId {
             //Reset
         case 0:
-            answer = "Är det inte dags att vi ses nån gång snart igen?"
+            answer = "Är det inte dags att vi ses nån gång snart igen? ☺️"
             chatId = 1
             //Vill du ha kvar mig i garderoben?
         case 1:
             if(!p){
-                answer = "Okej vad tråkigt att höra, vi har ju haft så kul tillsammans. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig?"
+                answer = "Okej vad tråkigt att höra 😭. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig? 💰"
                 chatId = 2
             }
             else{
-                answer = "Okej men då hänger jag kvar här i garderoben. Hoppas vi ses snart! Ha de gött"
+                answer = "Okej men då hänger jag kvar här i garderoben. Hoppas vi ses snart! 👋"
                 chatId = 0
             }
             break
@@ -130,12 +134,12 @@ class ChatController : ObservableObject {
             // Vill du sälja mig
         case 2:
                 if(p){
-                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en anons för mig på tradera för 300 kr?"
+                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en anons för mig på tradera? 🤸‍♂️"
                     //Tradera
                     chatId = 3
                 }
                 else{
-                    answer = "Okej. Men det är ju dumt att jag bara hänger här i garderoben och tar upp plats. Du vill inte skänka mig till Röda Korset då?"
+                    answer = "Okej. Men det är ju dumt att jag bara hänger här i garderoben och tar upp plats. Du vill inte skänka mig till Röda Korset då? 🎁"
                     //Röda korset
                     chatId = 4
                 }
@@ -143,13 +147,13 @@ class ChatController : ObservableObject {
             //Lägga upp mig på tradera?
             case 3:
                     if(p){
-                        answer = "Perfekt! Nu har jag lagt upp min annons på tradera. Kan HUGO hämta upp mig kl 18:30 idag?"
+                        answer = "Perfekt! Nu har jag lagt upp min annons på tradera. Kan HUGO hämta upp mig kl 18:30 idag? 🚗"
                         //Hugo hämtning
                         chatId = 5
                     }
                     else{
-                        answer = "Okej. Vad tycker du jag ör värd om jag inte är värd 300 kr?"
-                        chatId = 3
+                        answer = "Okej, ta med mig till nästa loppis då! 😃"
+                        chatId = 0
                     }
                     break
             //Röda Korset
@@ -172,43 +176,43 @@ class ChatController : ObservableObject {
                         chatId = 0
                     }
                     else{
-                        answer = "Okej men kan du föreslå en tid som passar dig?"
-                        chatId = 5
+                        answer = "Okej, hör av dig till Hugo när du vet en tid som passar! ☎️"
+                        chatId = 0
                     }
                     break
             //Laga?
             case 6:
                     if(p){
-                        answer = "Aj aj aj. Men om du har sparat mig så länge trotts att jag ör trasig, ska jag boka en tid så att en skräddare kan laga mig?"
+                        answer = "Aj, va synd! 😧. Men om du har sparat mig så länge trots att jag är trasig, ska jag boka en tid så att en skräddare kan laga mig? 🤕"
                         //Hugo hämtning
                         chatId = 7
                     }
                     else{
-                        answer = "Okej, vill du återvinna mig?"
+                        answer = "Okej, vill du återvinna mig? ♻️"
                         chatId = 8
                     }
                     break
             //Skräddare
             case 7:
                     if(p){
-                        answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste skräddare?"
+                        answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste skräddare? 🧶🧵"
                         //Hugo hämtning
                         chatId = 5
                     }
                     else{
-                        answer = "Vill du återvinna mig?"
+                        answer = "Vill du återvinna mig? ♻️"
                         chatId = 8
                     }
                     break
             //Återvinna
         case 8:
                 if(p){
-                    answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste återvinningsstation?"
+                    answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste återvinningsstation? 👍"
                     //Hugo hämtning
                     chatId = 5
                 }
                 else{
-                    answer = "Men då hänger jag kvar i garderoben så kan du bestämma senare vad du vill göra med mig?"
+                    answer = "Men då hänger jag kvar i garderoben så kan du bestämma senare vad du vill göra med mig? 👚👕👔👗"
                     chatId = 0
                 }
                 break
