@@ -1,4 +1,8 @@
 5 December
- 12.30 -  Arbete med projektet
+ 12.30 - 16.00:  3,5 timmar
+Arbete med projektet
+Smartparser1. Utvecklat på tasks angående smartare parsning av användarens svar. 
 
-Timmar :
+Parsen använder sig nu av en lista på "OK"-svar
+
+Timmar : 3,5 
