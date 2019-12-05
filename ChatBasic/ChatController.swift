@@ -10,6 +10,7 @@ import Foundation
 import Combine
 import SwiftUI
 import Swift
+let debugMode = false
 
 extension String {
     func containsExact(word : String) -> Bool
@@ -25,6 +26,8 @@ class ChatController : ObservableObject {
     // didChange will let the SwiftUI know that some changes have happened in this object
     // and we need to rebuild all the views related to that object
     var didChange = PassthroughSubject<Void, Never>()
+    
+    
     
     // We've relocated the messages from the main SwiftUI View. Now, if you wish, you can handle the networking part here and populate this array with any data from your database. If you do so, please share your code and let's build the first global open-source chat app in SwiftUI together
     // It has to be @Published in order for the new updated values to be accessible from the ContentView Controller
@@ -65,9 +68,7 @@ class ChatController : ObservableObject {
         // here we populate the messages array
         messages.append(chatMessage)
         
-        parseMessage(chatMessage)
-        
-        
+    
         // here we let the SwiftUI know that we need to rebuild the views
         didChange.send(())
 
@@ -87,12 +88,17 @@ class ChatController : ObservableObject {
     
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
+        let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna"]
+        let str = chatMessage.message;
+        let answer = str.split(separator: " ")[0].lowercased()
+        if(debugMode){print("Answer: ", answer)}
         
-
-        if (chatMessage.message.lowercased().containsExact(word: "ja")) {
-            return true
+        //Compare answer to all possible "jaSvar"
+        for svar in jaSvar {
+            if (answer.contains(svar)){
+                return true;
+            }
         }
-        print("Hello parser")
         return false
         
     }
