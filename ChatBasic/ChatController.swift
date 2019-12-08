@@ -99,7 +99,7 @@ class ChatController : ObservableObject {
         
         //Compare answer to all possible "jaSvar"
         for svar in jaSvar {
-            if (answer.contains(svar)){
+            if (answer.containsExact(word : svar)){
                 return true;
             }
         }
