@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D821C85F2399054E0024CE7F /* GarmentDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821C85E2399054E0024CE7F /* GarmentDisplayView.swift */; };
+		D821C8612399063C0024CE7F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821C8602399063C0024CE7F /* CircleImage.swift */; };
 		D8477268238EB17900C48BF8 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8477267238EB17900C48BF8 /* Garment.swift */; };
 		D8AF80D92385CA22001071FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF80D82385CA22001071FA /* AppDelegate.swift */; };
 		D8AF80DB2385CA22001071FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF80DA2385CA22001071FA /* SceneDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D821C85E2399054E0024CE7F /* GarmentDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentDisplayView.swift; sourceTree = "<group>"; };
+		D821C8602399063C0024CE7F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D8477267238EB17900C48BF8 /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
 		D8AF80D52385CA22001071FA /* ChatBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AF80D82385CA22001071FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				D8AF80D82385CA22001071FA /* AppDelegate.swift */,
 				D8AF80DA2385CA22001071FA /* SceneDelegate.swift */,
 				D8AF80DC2385CA22001071FA /* ContentView.swift */,
+				D821C85E2399054E0024CE7F /* GarmentDisplayView.swift */,
+				D821C8602399063C0024CE7F /* CircleImage.swift */,
 				D8AF80DE2385CA2B001071FA /* Assets.xcassets */,
 				D8AF80E32385CA2B001071FA /* LaunchScreen.storyboard */,
 				D8AF80E62385CA2B001071FA /* Info.plist */,
@@ -275,6 +281,8 @@
 			files = (
 				D8AF80D92385CA22001071FA /* AppDelegate.swift in Sources */,
 				D8AF80DB2385CA22001071FA /* SceneDelegate.swift in Sources */,
+				D821C85F2399054E0024CE7F /* GarmentDisplayView.swift in Sources */,
+				D821C8612399063C0024CE7F /* CircleImage.swift in Sources */,
 				D8477268238EB17900C48BF8 /* Garment.swift in Sources */,
 				D8AF80DD2385CA22001071FA /* ContentView.swift in Sources */,
 				D8AF81092385CDED001071FA /* ChatController.swift in Sources */,

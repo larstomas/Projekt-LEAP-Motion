@@ -27,6 +27,7 @@ struct ChatRow : View {
                     .foregroundColor(Color.white)
                     .background(chatMessage.color)
                     .cornerRadius(15)
+                    .padding(.bottom, 2)
                 }
             } else {
                 HStack{
@@ -39,6 +40,7 @@ struct ChatRow : View {
                         .foregroundColor(Color.white)
                         .background(chatMessage.color)
                         .cornerRadius(10)
+                        .padding(.bottom, 2)
                     }
                 }
             }
@@ -58,34 +60,52 @@ struct ContentView : View {
       
         // the VStack is a vertical stack where we place all our substacks like the List and the TextField
         VStack {
+            NavigationView{
             // I've removed the text line from here and replaced it with a list
             // List is the way you should create any list in SwiftUI
             //nav change
-            NavigationView {
-                ScrollView () {
-                    VStack(alignment: .leading) {
-                        ForEach(chatController.messages, id: \.self) {msg in
-                            ChatRow(chatMessage: msg)
+                VStack{
+                    Text("")
+                        .navigationBarTitle("Ful Tröja")
+                        .navigationBarItems(leading:
+                            Button("< Wardrobe") {
+                                print("Help tapped!")
+                            }, trailing:
+                            NavigationLink(destination: GarmentDisplayView()) {
+                                Text("Ful Tröja")
+                            }
+                            )
+                    
+                    ScrollView () {
+                                VStack(alignment: .leading) {
+                                    ForEach(chatController.messages, id: \.self) {msg in
+                                        ChatRow(chatMessage: msg)
+                                    }
+                                }
+                    }.padding()
+                    
+                    // TextField are aligned with the Send Button in the same line so we put them in HStack
+                    HStack {
+                        // this textField generates the value for the composedMessage @State var
+                        TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
+                        // the button triggers the sendMessage() function written in the end of current View
+                        Button(action: sendMessage) {
+                            Text("Skicka")
                         }
+                    }.frame(minHeight: CGFloat(50)).padding()
+                    // that's the height of the HStack
                     }
                 }
-            }.padding()
-            
-            // TextField are aligned with the Send Button in the same line so we put them in HStack
-            HStack {
-                // this textField generates the value for the composedMessage @State var
-                TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
-                // the button triggers the sendMessage() function written in the end of current View
-                Button(action: sendMessage) {
-                    Text("Skicka")
-                }
-            }.frame(minHeight: CGFloat(50)).padding()
-            // that's the height of the HStack
         }
     }
     func sendMessage() {
         chatController.sendMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
+        let yesOrNo : Bool = chatController.parseMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
+        
+        
         composedMessage = ""
+        
+        chatController.sendMessage(ChatMessage(message: chatController.generateAnswer(p:yesOrNo), avatar: "Tröja", color: .red))
     }
 }
 
