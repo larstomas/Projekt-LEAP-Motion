@@ -1,0 +1,16 @@
+Veckorapport #5
+
+Projektledare: Tomas
+
+Veckan har känts väldigt bra. Färre möten och mindre administrativt arbete har menat att man har kunnat
+fokusera på tasks och producera. Själv har jag arbetat på "parsern". Detta är en del av projektet som
+tittar på vad användaren skriver till chatboten och försöker tolka vad meddelandet betyder. 
+
+Det har inneburit lite uppdelande av meningar och sen försökt tolka vad de har betytt.
+Eftersom det är fokus på "proof of concept" så har vi lagt in ett antal ord som vi (på svenska) tolkar som "ja".
+
+Dessutom har vi gjort meddelanden lite mer personliga då mycket av projektets fokus låg på att göra den personlig.
+
+
+
+Timmar: 10

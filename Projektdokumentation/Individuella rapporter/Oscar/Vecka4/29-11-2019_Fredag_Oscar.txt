@@ -1,0 +1,14 @@
+total tid: 3h
+
+12:45 - 14:15 Möte
+-Löste git konflikter
+-Diskuterade git "regler". Ska pusha mer frekvent och mergea med dev.
+-Planerade inför presentation och opponering
+-Gick igenom vart vi är i projekter och hur vi ska gå vidare och arbeta
+-Måste hålla mer struktur i uppdelning av arbete.
+
+
+14:30 - 16:00 Dags och veckorapport
+-Skrev veckans dags rapporter då jag inte har haft tid att sätta mig ner och
+skriva dem under veckan.
+-Sammanställde dagsrapporter till veckorapport. 

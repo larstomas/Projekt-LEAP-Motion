@@ -1,3 +1,6 @@
 28 November
 
-08.30 - 12.00     Arbete med projekt
+08.30 - 12.00 - 3,5 timmar
+
+Arbete med projekt.
+Backendparser-arbetet påbörjat. Försökt att isolera var parsen ska pluggas in i projektet.

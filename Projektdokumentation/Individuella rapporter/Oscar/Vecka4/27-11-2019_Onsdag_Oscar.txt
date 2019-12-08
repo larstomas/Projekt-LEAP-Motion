@@ -1,0 +1,8 @@
+total tid: 4h
+
+8:30 - 12:00 Xcode
+-skapade en branch
+-samlade fakta:
+	gick igenom programmet hittills
+	kollade vad vi ska göra för att gå vidare med parser och meddelande generering
+-skapade funktion som skriver till terminalen
