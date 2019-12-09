@@ -89,17 +89,17 @@ class ChatController : ObservableObject {
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
         let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna", "perfekt"]
-        let str = chatMessage.message;
+        let str = chatMessage.message.lowercased()
         
         //Quick fix for empty messages
         if(str == ""){return false}
         
-        let answer = str.split(separator: " ")[0].lowercased()
-        if(debugMode){print("Answer: ", answer)}
+        //let answer = str.split(separator: " ")[0].lowercased()
+        if(debugMode){print("Answer: ", str)}
         
         //Compare answer to all possible "jaSvar"
         for svar in jaSvar {
-            if (answer.containsExact(word : svar)){
+            if (str.containsExact(word : svar)){
                 return true;
             }
         }

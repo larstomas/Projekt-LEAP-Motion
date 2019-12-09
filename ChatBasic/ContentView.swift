@@ -80,7 +80,7 @@ struct ContentView : View {
                     
                     ReverseScrollView {
                                 VStack(alignment: .leading, spacing: 8) {
-                                    ForEach(chatController.messages, id: \.self) {msg in
+                                    ForEach(self.chatController.messages, id: \.self) {msg in
                                         ChatRow(chatMessage: msg).fixedSize(horizontal: false, vertical: true)
                                     }
                                 }
