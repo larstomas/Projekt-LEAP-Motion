@@ -54,11 +54,13 @@ struct ContentView : View {
      // @State here is necessary to make the composedMessage variable accessible from different views
     @State var composedMessage: String = ""
     @EnvironmentObject var chatController: ChatController
+    let fontName = "System Font"
 
     
     var body: some View {
       
         // the VStack is a vertical stack where we place all our substacks like the List and the TextField
+
         VStack {
             NavigationView{
             // I've removed the text line from here and replaced it with a list
@@ -76,10 +78,10 @@ struct ContentView : View {
                             }
                             )
                     
-                    ScrollView () {
-                                VStack(alignment: .leading) {
+                    ReverseScrollView {
+                                VStack(alignment: .leading, spacing: 8) {
                                     ForEach(chatController.messages, id: \.self) {msg in
-                                        ChatRow(chatMessage: msg)
+                                        ChatRow(chatMessage: msg).fixedSize(horizontal: false, vertical: true)
                                     }
                                 }
                     }.padding()
@@ -95,13 +97,13 @@ struct ContentView : View {
                     }.frame(minHeight: CGFloat(50)).padding()
                     // that's the height of the HStack
                     }
+
                 }
         }
     }
     func sendMessage() {
         chatController.sendMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
         let yesOrNo : Bool = chatController.parseMessage(ChatMessage(message: composedMessage, avatar: "Julius", color: .green, isMe: true))
-        
         
         composedMessage = ""
         
