@@ -1,0 +1,5 @@
+2019-11-29
+
+Hade ett möte med gruppen där vi bestämde ny regler om git eftersom vi hade lite problem med uppdateringar. mergade den scroll view jag jobbade under veckan till huvud version vi har samt diskuterade vi presentationen för nästa vecka
+
+2hr

@@ -1,0 +1,7 @@
+total tid: 5h
+
+12:00 - 17:00
+-Skapade en funktion i xcode som kan generera svarsmeddelanden.
+
+18:00 - 18:30
+-Uppdaterade veckorapport.

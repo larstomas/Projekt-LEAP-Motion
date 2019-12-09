@@ -1,0 +1,7 @@
+2019-12-1
+
+Uppdaterade scrollview så man får de senaste meddelande alltid framme i appen sammt fixade listan av meddelande så den passar skärmen bätter och fixade layout på meddelande. Detta läggs i en branch av dev branchen som min utvecklings branch. kommer merga dettta när det fungerar helt
+
+Hade en genomgång med andra i gruppen om presentationen och preparerade för vad jag skulle säga.
+
+6hr

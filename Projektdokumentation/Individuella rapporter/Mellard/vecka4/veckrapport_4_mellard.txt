@@ -1,0 +1,7 @@
+veckrapport_4_mellard
+
+Denna veckan hade jag mer chans att jobba med appen. Jag skapade scrollview så man kan ser meddelande bättre sen hade jag ett egen branch för vidareutveckling av chatappen. Hade lite problem med att pusha min version till git och jag har fortfarande problem med att pusha va jag jobbar med till dev branchen men det vill jag inte göra tills scroll view fungerar som jag vill. 
+
+Hade lite arbete om presentationen också och förberedade mig för det. det känns lite tufft för svenska är inte min starkaste språk men jag tror att det kommer gå bra
+
+Hade velat pusha mer till git så alla ser vad jag jobbar med, men kommer nog göra det när scroll view fungerar som det ska
