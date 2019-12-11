@@ -44,7 +44,7 @@ class ChatController : ObservableObject {
     
     
     func initGarments(){
-        let fShirt = Garment (name: "fultröja", id: 1, gType: Garment.garmentType.shirt)
+        let fShirt = Garment (name: "tröja", id: 1, gType: Garment.garmentType.shirt)
         garments.append(fShirt)
         
         var timeInterval = DateComponents()
@@ -134,7 +134,7 @@ class ChatController : ObservableObject {
             // Vill du sälja mig
         case 2:
                 if(p){
-                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en anons för mig på tradera? 🤸‍♂️"
+                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en annons för mig på tradera? 🤸‍♂️"
                     //Tradera
                     chatId = 3
                 }
