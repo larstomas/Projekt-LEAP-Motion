@@ -1,0 +1,11 @@
+total tid: 7h
+
+8:00-12:00 Presentation och opponering
+-lyssnade på alla gruppers pressentationer.
+-genomflörde min opponering
+
+13:00-14:00 Möte med Cybercom
+- diskuterade vår progress
+
+16:00 - 18:00 Xcode
+-Skrev på generera meddelande funktionen. Nästan klar

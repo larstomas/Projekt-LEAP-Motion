@@ -1,0 +1,15 @@
+total tid: 5h
+
+11:00 - 12:00 Administrativt arbete
+-Städade och la till Admin tasks i trello
+-La till deadline för rapporter
+
+12:00 - 13:30 Rapportskrivning
+-Tog bort specitik text som tillhörde halvtidsrapporten
+-Skrev på rapporten
+
+15:00 - 16:30 Rapportskrivning
+-Fortsatte skriva på rapporten
+
+16:00 - 17:00 Veckorapport
+-Sammanfattade veckans dagsrapporter till veckorapport

@@ -1,0 +1,12 @@
+total tid: 4h
+
+13:00-14:30 Xcode programmering
+-skrev klart funktionen som genererar meddelanden
+-fixade lite git strul
+
+
+14:30-16:00 & 16:30 - 17:00  Xcode
+-försökte lägga till delay på chatsvar men lyckades inte
+
+16:00 - 16:30 Planerade veckomöte
+-Planerade inför veckomöte med gruppen
