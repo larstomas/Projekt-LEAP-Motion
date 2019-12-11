@@ -5,7 +5,7 @@ struct ChatMessage : Hashable {
     var message: String
     var avatar: String
     var color: Color
-     // isMe will be true if We sent the message
+    // isMe will be true if We sent the message
     var isMe: Bool = false
 }
 
@@ -22,12 +22,12 @@ struct ChatRow : View {
             if !chatMessage.isMe {
                 Group{
                     Text(chatMessage.message)
-                    .bold()
-                    .padding()
-                    .foregroundColor(Color.white)
-                    .background(chatMessage.color)
-                    .cornerRadius(15)
-                    .padding(.bottom, 2)
+                        .bold()
+                        .padding()
+                        .foregroundColor(Color.white)
+                        .background(chatMessage.color)
+                        .cornerRadius(15)
+                        .padding(.bottom, 2)
                 }
             } else {
                 HStack{
@@ -35,70 +35,67 @@ struct ChatRow : View {
                         Spacer()
                         
                         Text(chatMessage.message)
-                        .bold()
-                        .padding(10)
-                        .foregroundColor(Color.white)
-                        .background(chatMessage.color)
-                        .cornerRadius(10)
-                        .padding(.bottom, 2)
+                            .bold()
+                            .padding(10)
+                            .foregroundColor(Color.white)
+                            .background(chatMessage.color)
+                            .cornerRadius(10)
+                            .padding(.bottom, 2)
                     }
                 }
             }
         }
-
+        
     }
 }
 
 struct ContentView : View {
     
-     // @State here is necessary to make the composedMessage variable accessible from different views
+    // @State here is necessary to make the composedMessage variable accessible from different views
     @State var composedMessage: String = ""
     @EnvironmentObject var chatController: ChatController
     let fontName = "System Font"
-
+    
     
     var body: some View {
-      
+        
         // the VStack is a vertical stack where we place all our substacks like the List and the TextField
-
-        VStack {
-            NavigationView{
+        
+        NavigationView{
             // I've removed the text line from here and replaced it with a list
             // List is the way you should create any list in SwiftUI
             //nav change
-                VStack{
-                    Text("")
-                        .navigationBarTitle("Ful Tröja")
-                        .navigationBarItems(leading:
-                            Button("< Wardrobe") {
-                                print("Help tapped!")
-                            }, trailing:
-                            NavigationLink(destination: GarmentDisplayView()) {
-                                Text("Ful Tröja")
-                            }
-                            )
-                    
-                    ReverseScrollView {
-                                VStack(alignment: .leading, spacing: 8) {
-                                    ForEach(self.chatController.messages, id: \.self) {msg in
-                                        ChatRow(chatMessage: msg).fixedSize(horizontal: false, vertical: true)
-                                    }
-                                }
-                    }.padding()
-                    
-                    // TextField are aligned with the Send Button in the same line so we put them in HStack
-                    HStack {
-                        // this textField generates the value for the composedMessage @State var
-                        TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
-                        // the button triggers the sendMessage() function written in the end of current View
-                        Button(action: sendMessage) {
-                            Text("Skicka")
+            VStack{
+                Text("")
+                    .navigationBarTitle("Tröja")
+                    .navigationBarItems(leading:
+                        Button("< Wardrobe") {
+                            print("Help tapped!")
+                        }, trailing:
+                        NavigationLink(destination: GarmentDisplayView()) {
+                            Text("Tröja")
                         }
-                    }.frame(minHeight: CGFloat(50)).padding()
-                    // that's the height of the HStack
+                )
+                
+                ReverseScrollView {
+                    VStack(alignment: .leading, spacing: 8) {
+                        ForEach(self.chatController.messages, id: \.self) {msg in
+                            ChatRow(chatMessage: msg).fixedSize(horizontal: false, vertical: true)
+                        }
                     }
-
-                }
+                }.padding()
+                
+                // TextField are aligned with the Send Button in the same line so we put them in HStack
+                HStack {
+                    // this textField generates the value for the composedMessage @State var
+                    TextField("Meddelande...", text: $composedMessage).frame(minHeight: CGFloat(30))
+                    // the button triggers the sendMessage() function written in the end of current View
+                    Button(action: sendMessage) {
+                        Text("Skicka")
+                    }
+                }.frame(minHeight: CGFloat(50)).padding()
+                // that's the height of the HStack
+            }
         }
     }
     func sendMessage() {
@@ -115,7 +112,7 @@ struct ContentView : View {
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         ContentView()
-        .environmentObject(ChatController())
+            .environmentObject(ChatController())
     }
 }
 #endif
