@@ -1,0 +1,7 @@
+Fredag 6/12
+
+Pillat lite på chatboten. Fixat så att strängen för svar inte behöver börja med ett "OK"-meddelande utan att det räcker med att den finns någonstans i strängen.
+
+Dagbok + rapportskrivning
+
+Arbetstid: 3h

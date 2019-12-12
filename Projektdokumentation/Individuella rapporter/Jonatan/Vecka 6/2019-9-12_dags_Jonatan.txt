@@ -1,0 +1,7 @@
+Måndag 9/12
+
+Måndagsmöte med gruppen där vi planerade veckan och bestämde oss för att vi är nöjda med appen så som den ser ut nu och att vi ska spendera resten av tiden kvar till att skriva rapport. Vi gjorde uppdelningar på vem som ska skriva vad. En bug återstår att fixa men i övrigt funkar allt som det ska och funkar som proof of concept. 
+
+Gjorde lite sista touches på appen men klantade mig med mergen så det ordnade vi också upp.
+
+Arbetstid: 2h
