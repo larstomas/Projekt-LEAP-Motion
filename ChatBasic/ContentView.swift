@@ -67,13 +67,13 @@ struct ContentView : View {
             //nav change
             VStack{
                 Text("")
-                    .navigationBarTitle("Tröja")
+                    .navigationBarTitle("Röd Jultröja")
                     .navigationBarItems(leading:
                         Button("< Wardrobe") {
                             print("Help tapped!")
                         }, trailing:
                         NavigationLink(destination: GarmentDisplayView()) {
-                            Text("Tröja")
+                            Text("Röd Jultröja")
                         }
                 )
                 
@@ -104,7 +104,7 @@ struct ContentView : View {
         
         composedMessage = ""
         
-        chatController.sendMessage(ChatMessage(message: chatController.generateAnswer(p:yesOrNo), avatar: "Tröja", color: .red))
+        chatController.sendMessage(ChatMessage(message: chatController.generateAnswer(p:yesOrNo), avatar: "Röd Jultröja", color: .red))
     }
 }
 

@@ -13,7 +13,7 @@ struct GarmentDisplayView: View {
         VStack{
             CircleImage()
         VStack(alignment: .leading){
-            Text("Tröja")
+            Text("Röd Jultröja")
                 .font(.largeTitle)
             HStack{
                 Text("Senast använd: 6 månader sedan")
