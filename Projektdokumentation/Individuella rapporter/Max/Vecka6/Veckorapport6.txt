@@ -2,6 +2,20 @@ Veckorapport #6.
 
 Projektledare: John Mellard Buhian
 
+Veckan började med en sjukdag för mig, vilket innebar att jag missade ett möte. Det var måndagsmötet som
+ska innebära en enklare sprint-review och lite git-merges.
+Det viktigaste som bestämdes på mötet var att fokus skulle flyttas lite från utveckling till rapport-skrivning och admin.
+Det innebär att halvtidsrapporten ska fortsättas uppdateras och slutligen bli en finalreport.
 
-Timmar:
+Vi skickade in halvtidsrapporten till skriv-workshop-lärarna för framtida feedback.
+
+På onsdagen träffade vi Cybercom och visade upp det vi hade än så länge. Eftersom Borås Textile inte kunde träffas
+på utsatt tid i december så är det troligtvis bara cybercom vi kommer hinna träffa. Vi beslutade att Cybercom
+skulle få ta del av hela projektet, rapporten och presentationen - samt att detta ska skickas till Borås.
+
+Resterande dagar av veckan har ägnats åt rapportskrivning. Det är huvudsakligen resultat-delen som jag är delvis 
+ansvarig för. Under resultat fanns ingen information sen halvtidsrapporten.
+
+
+Timmar: 8 h
 
