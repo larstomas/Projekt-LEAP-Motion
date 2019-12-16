@@ -1,0 +1,12 @@
+Måndag 2/12 
+Halvtids redovisningar och opponeringar
+4,5h
+
+Onsdag 4/12
+Jobbat med programmering av appen, jag har programmerat navigationbaren så det finns knappar 
+där uppe och titel för vilket plagg man pratar med, mycket tid för att få allt att ligga på rätt plats.
+6h
+
+Torsdag 5/12
+Fortsatt att programmera i appen, lagt till fönster så man kan trycka på plagget och komma till en ny view. Där kan man se en bild och lite info om plagget. Råkade ta bort allt jag gjort igår och idag så fick göra om från början men gick snabbare andra gången.
+6h 

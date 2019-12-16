@@ -1,0 +1,13 @@
+25/11 
+Möte med gruppen och skrivsession.
+Skriva sista på halvtidsrapport samt individuell betygsättning.
+4,5 h
+
+27/11
+Programmering av av klass som innehåller plagg, mockade plagg, inläsning av plagg
+Tillagd tagg för senaste avunden och avläsning och jämförelse med dagens datum vid start av app för alla plagg
+7,5h
+
+29/11 
+Avstämning med grupp planering för nästa vecka, förberedelse för opponering
+3,5h
