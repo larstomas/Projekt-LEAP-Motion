@@ -1,0 +1,3 @@
+Denna veckan har jag äntligen lagt mycket på att programmera, vi hade även halvtids redovisning och opponeringen. Jag opponerade för oss och att opponera själv gav ganska bra insikt vad det vad som man skulle göra bättre när man skrev rapporten själv.
+
+Programmering i Xcode blev ganska frustrerande, det blir svårt när man inte är helt van och förstår språket man jobbar med. Fick lägga mycket tid på att flytta saker och se till att de hamnade på rätt plats och blev i rätt storlek. Det känns dock äntligen som att vi har fått en hyfsad produkt och börjar närma oss en MVP som man kan leverera till Smart Textiles.

@@ -1,0 +1,2 @@
+Denna veckan har vi lagt tid på att avrunda projektet. Vi behövde mergea våra olika koder och sedan se vad vi har kvar att göra, jag blev tilldelad att fixa några få buggar och skriva konstruktions delen av rapporten. 
+Buggen var ganska svår att fixa med de löste sig tillslut, jag la sedan resterande tid på att skriva rapportdelen.

@@ -1,0 +1,4 @@
+Veckan har varit bra, vi har lagt ganska mycket tid på rapport och opponering och inte kunnat koda fullt ut.
+Jag la mycket tid på att omrefaktorera koden och implementera en ny klass som är ett plagg och mockade ett plagg, alla plagg läggs nu in i en lista vid uppstart och kollar igenom om det är dags för plagget att ge en påminnelse till användaren. Påminnelse är mockad så senaste användning är för 6 månader sedan och därför ger den en påminnelse varje gång appen öppnas.
+Mötet i slutet av veckan var givande, hela gruppen kändes överens om att vi kan bli effektivare och lägga mer fokus på att koda nästa vecka.
+15,5 h
