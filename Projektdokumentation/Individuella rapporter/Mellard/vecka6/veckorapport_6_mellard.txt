@@ -1,0 +1,3 @@
+vecka 6
+
+Nu kom vi till slutet av utveckling. hela gruppen känns nöjd med appen och vi tycker att vi borde jobba med rapporten nu innan jullov. För mig känns det som vi har inte haft tillräkligt tid att göra all vi ville. Det tog för långt tid att kommunicera med företag både cybercom och smart textile labs och inlärningstid av swift och xcode tog tid också. Men jag är nöjd med vad vi har kommit och nu ska vi börja fixa rapporten

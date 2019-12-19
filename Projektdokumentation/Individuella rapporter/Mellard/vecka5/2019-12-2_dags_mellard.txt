@@ -1,0 +1,7 @@
+2/12
+
+hade en halvtidsredovisning och presenterade vår arbete med klassen. Det gick ganska bra än förväntad
+
+hittade en bug i appen där chattbubblor minskar och textedn förkortas så jag fick söka lösning till detta. Hittade ingen lösning än
+
+5hrs

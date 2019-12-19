@@ -1,0 +1,14 @@
+Veckorapport för vecka 6
+
+Projektledare: John Mellard Buhian
+
+veckan började med en vanligt möta på måndag där vi diskuterade hur projektet har gått och vad vi ville göra med projektet nu. Vi hade lite merge problem som gick att lösa och nu har vi ett fungerande app. Gruppen bestämde att vi är ganska nöjd nu med utveckling av appen och nu måste vi börja slippa lite och fixa saker i appen med tanken på slutversion. Vi kom på också att boka en möta med cybercom för att diskutera hur vi ska avsluta projektet. Vi började dela ut arbetet för rapportskrivning, vilka som ska skriva delar av rapporten eftersom projekten. Eftersom gruppen är nöjda med appen ska alla fokus nu flyttas mer och mer till rapporten
+
+Efter det hade vi möte med cyrbercom och visade vår app till dem. Henrik, som vi träffade i mötet såg nöjd ut med appen ock vi fortsatt med mötet genom att prata om hur vi ska avsluta projekt. Vi kom på beslutet att han ska komma till  slutpresentation i januari och han kommer diskutera med sakib om hur detta ska ske samt att vi ska skicka gitrepo och projektrapport till han.
+
+Sammanfattning och betyg:
+
+Jag kommer att ge gruppen betyget: 5
+
+Motivering:
+Denna vecka har fokuserat mycket på avslutning av projektet och nuvarande version av appen såg väldigt bra ut. Ett stort framsteg jämfort med första versionen och jag tycker att gruppen har jobbat bra för att komma till det. Detta appen fick också en tummen upp från cybercom. gruppens arbete har varit bra trots lite merge konflikter vi har haft. Gruppen tillsammans löste problem och tills slut fick ve allt att funka. 

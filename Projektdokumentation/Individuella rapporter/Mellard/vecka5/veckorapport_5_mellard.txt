@@ -1,0 +1,4 @@
+vecka 5
+
+ganska produktivt vecka, vi gjorde halvtidspresentation och det kändes ganska bra även om jag var lite nervös. Det är skönt att det är slut nu. Sen kom jag till en bug i appen efter vi mergade vår arbete och fick jobba med det. Det var ganska svårt jobb att fixa bug i en app med ett programmeringsspråk som man har precis lärt men det gick bra i slutet
+
