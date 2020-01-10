@@ -68,13 +68,13 @@ struct ContentView : View {
             //nav change
                 VStack{
                     Text("")
-                        .navigationBarTitle("Ful Tröja")
+                        .navigationBarTitle("Stickad Tröja")
                         .navigationBarItems(leading:
                             Button("< Wardrobe") {
                                 print("Help tapped!")
                             }, trailing:
                             NavigationLink(destination: GarmentDisplayView()) {
-                                Text("Ful Tröja")
+                                Text("Stickad Tröja")
                             }
                             )
                     

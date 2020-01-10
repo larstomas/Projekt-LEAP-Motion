@@ -44,7 +44,7 @@ class ChatController : ObservableObject {
     
     
     func initGarments(){
-        let fShirt = Garment (name: "fultröja", id: 1, gType: Garment.garmentType.shirt)
+        let fShirt = Garment (name: "stickadtröja", id: 1, gType: Garment.garmentType.shirt)
         garments.append(fShirt)
         
         var timeInterval = DateComponents()
