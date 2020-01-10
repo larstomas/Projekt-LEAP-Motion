@@ -55,7 +55,7 @@ class ChatController : ObservableObject {
             
             if getDate(date: gar.lastUsed) == getDate(date: todays) {
                 
-                messages.append(ChatMessage(message: "Hej! du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
+                messages.append(ChatMessage(message: "Hej! du har inte använt mig sedan " + getDate(date: gar.lastUsed) + ".", avatar: gar.name , color: .red))
               
               messages.append(ChatMessage(message: "Är det dags att ses snart igen? ☺️", avatar: gar.name , color: .red))
           }
@@ -79,7 +79,8 @@ class ChatController : ObservableObject {
         var ret : String
         
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.locale = Locale(identifier: "sv_SE")
+        formatter.dateFormat = "d MMMM yyyy"
         ret = formatter.string(from: date)
         
         return ret
@@ -88,7 +89,7 @@ class ChatController : ObservableObject {
     
     
     func parseMessage(_ chatMessage: ChatMessage) -> Bool{
-        let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna", "perfekt"]
+        let jaSvar:[String] = ["ja", "visst", "okej", "absolut", "okejdå", "gärna", "perfekt", "det går fint", "det går bra"]
         let str = chatMessage.message.lowercased()
         
         //Quick fix for empty messages
