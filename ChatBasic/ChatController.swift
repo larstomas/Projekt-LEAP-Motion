@@ -55,9 +55,9 @@ class ChatController : ObservableObject {
             
             if getDate(date: gar.lastUsed) == getDate(date: todays) {
                 
-                messages.append(ChatMessage(message: "Hej du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
+                messages.append(ChatMessage(message: "Hej! du har inte använt mig sedan " + getDate(date: gar.lastUsed), avatar: gar.name , color: .red))
               
-              messages.append(ChatMessage(message: "Är det inte dags att vi ses nån gång snart igen? ☺️", avatar: gar.name , color: .red))
+              messages.append(ChatMessage(message: "Är det dags att ses snart igen? ☺️", avatar: gar.name , color: .red))
           }
         }
     }
@@ -117,16 +117,16 @@ class ChatController : ObservableObject {
         switch chatId {
             //Reset
         case 0:
-            answer = "Är det inte dags att vi ses nån gång snart igen? ☺️"
+            answer = "Är det dags att ses snart igen? ☺️"
             chatId = 1
             //Vill du ha kvar mig i garderoben?
         case 1:
             if(!p){
-                answer = "Okej vad tråkigt att höra 😭. Men vill du kanske sälja mig vidare så någon annan kan dra nytta av mig? 💰"
+                answer = "Okej, vad tråkigt att höra 😭. Vill du sälja mig vidare så någon annan kan dra nytta av mig? 💰"
                 chatId = 2
             }
             else{
-                answer = "Okej men då hänger jag kvar här i garderoben. Hoppas vi ses snart! 👋"
+                answer = "Okej, men då hänger jag kvar här i garderoben. Hoppas vi ses snart! 👋"
                 chatId = 0
             }
             break
@@ -134,7 +134,7 @@ class ChatController : ObservableObject {
             // Vill du sälja mig
         case 2:
                 if(p){
-                    answer = "Oj vad spännande det här ska bli! Vad sägs om att jag lägger upp en anons för mig på tradera? 🤸‍♂️"
+                    answer = "Oj, vad spännande det här ska bli! Vad sägs om att jag lägger upp en annons för mig på tradera? 🤸‍♂️"
                     //Tradera
                     chatId = 3
                 }
@@ -164,14 +164,14 @@ class ChatController : ObservableObject {
                         chatId = 5
                     }
                     else{
-                        answer = "Jaha. Så du vill inte sälja mig eller skänka mig vidare. Är det för att jag är trasig?"
+                        answer = "Aha, så du vill inte sälja mig eller skänka mig vidare. Är det för att jag är trasig?"
                         chatId = 6
                     }
                     break
             //HUGO hämtning
             case 5:
                     if(p){
-                        answer = "Perfekt! Jag hör av mig när HUGO nörmar sig så kan du bära ut mig. Jag har nämligen lite svårt att ta mig ut sälv. Vi ses om en stund!"
+                        answer = "Perfekt! Jag hör av mig när HUGO närmar sig så kan du bära ut mig. Jag har nämligen lite svårt att ta mig ut själv. Vi ses om en stund!"
                         //Hugo hämtning
                         chatId = 0
                     }
@@ -195,7 +195,7 @@ class ChatController : ObservableObject {
             //Skräddare
             case 7:
                     if(p){
-                        answer = "Kan hugo hämta mig kl 18:30 och köra mig till nörmaste skräddare? 🧶🧵"
+                        answer = "Kan hugo hämta mig kl 18:30 och köra mig till närmaste skräddare? 🧶🧵"
                         //Hugo hämtning
                         chatId = 5
                     }
