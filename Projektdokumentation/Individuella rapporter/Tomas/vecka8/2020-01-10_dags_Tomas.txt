@@ -1,0 +1,4 @@
+# Vecka 8
+Arbetstid: 3 timmar
+
+Dokumentation och rapportering. Skapade en videopresentation av vår app som vi ska skicka till Cybercom och Smart Textiles lab i Borås.

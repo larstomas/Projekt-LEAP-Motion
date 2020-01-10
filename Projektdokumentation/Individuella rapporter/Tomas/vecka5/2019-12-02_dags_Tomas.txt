@@ -1,0 +1,6 @@
+# Vecka 5
+Arbetstid: 6 timmar
+
+Idag var det halvtidsrapport. Jag har med i gruppen som redovisade. Det känndes riktigt bra.
+
+Försökt lägga in appen i telefonen med testflight.

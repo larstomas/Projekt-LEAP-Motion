@@ -1,0 +1,4 @@
+# Vecka 3
+Arbetstid: 2 timmar
+
+Installerat Xcode. Tittat på guider för Xcode och Swift

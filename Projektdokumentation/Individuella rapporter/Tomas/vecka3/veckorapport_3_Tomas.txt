@@ -1,0 +1,7 @@
+# Veckorapport 3
+
+Arbetstid: 8
+
+Nu har vi kommit igång. Bekantat oss med Xcode och Swift. Jag har gjort en del guider som en start. 
+
+Förberedelser för presentationen.

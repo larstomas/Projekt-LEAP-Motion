@@ -1,5 +1,4 @@
 # Vecka 2
-Fredag 15:e november
 Arbetstid: 2 timmar
 
 Planeringsmöte med gruppen. Valde att göra en iOS-app i Swift. Pratade om rapporten. 

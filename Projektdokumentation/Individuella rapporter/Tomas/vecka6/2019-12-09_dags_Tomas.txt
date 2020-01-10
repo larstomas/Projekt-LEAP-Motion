@@ -1,0 +1,10 @@
+# Vecka 6
+Arbetstid: 5 timmar
+
+Möte med gruppen. Där vi planerade avslutningen av projektet och mötet med cybercom.
+
+Hjälpte till att fixa merge-problem.
+
+Lyckades tillslut lägga in appen på telefonen, utan testflight.
+
+Veckorapport för vecka 5
